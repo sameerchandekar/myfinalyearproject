@@ -1,0 +1,130 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.hmMainArea {
+padding-bottom: 0px;
+padding-left: 5px;
+width: 980px;
+padding-right: 0px;
+float: right;
+padding-top: 0px;
+}
+
+.homeBannerDeals_jul20{margin-top:5px;width: 200px;float: left; }
+.homeBannerDeals_heading_outer_jul20{border-bottom:3px solid #142C45;padding-bottom:2px;}
+.homeBannerDeals_heading_jul20 a{height:30px;display:block;overflow:hidden;background:#eaeaea;border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;_webkit_border-radius:3px 3px 0 0;}
+.homeBannerDeals_heading_jul20 a:hover{color:#A71818;}
+.homeBannerDeals_heading_jul20 a .homeBannerDeals_head_text_jul20{
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	padding: 6px 0 0 19px;
+	text-shadow: 0 1px #fff;
+	color: #008000;
+}
+.homeBannerDeals_heading_jul20 a .view_deal_link_jul20{color:#0f2d5e;font-size:10px;font-weight:normal;float:right;padding:9px 8px 0 0;text-shadow:0 0 #fff!important;text-align:right;}
+.homeBannerDeals_heading_jul20 a:hover .homeBannerDeals_head_text_jul20{color:#008000;}
+.homeBannerDeals_heading_jul20 a:hover .view_deal_link_jul20{color:#A71818;}
+ .view_deal_link2_jul20{color:#0f2d5e;  font-size:11px;font-weight:normal;float:right;padding:9px 8px 0 0;text-shadow:0 0 #fff!important;width:30%; height:100%;text-align:right;}
+  .view_deal_link2_jul20:hover{background-color:#E47911; color:#FFF;}
+.homeBannerDeals_cont_outer_jul20{
+	border-left:2px solid #eaeaea;
+	border-right:2px solid #eaeaea;
+	border-bottom:4px solid #eaeaea;
+	font-size:12px;	
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+/*see all*/
+.showAllLess, .showAllLess a {cursor: pointer;color: #292A2A;font-size: 11px;margin-top: 9px;text-align: center;height: 20px;}
+.showAllLess:hover, .showAllLess a:hover {
+	cursor: pointer;
+	color: #008000;
+	font-size: 11px;
+	margin-top: 9px;
+	text-align: center;
+	height: 20px;
+}
+.listitemsnew.hide, .showLess.hide, .showAll.hide, .shownAll .showAll, .showLess{display: none;}
+.showAll, .showLess{margin: 12px 15px 5px 15px;font-size: 11px;cursor: pointer;text-align: center;}
+.shownAll li.listitemsnew.hide, .shownAll .showLess{display: block;}
+.listitemsnew a.current{color: #EE7F4E;font-weight: bold;}
+
+.leftFiltersJew .listitemsnew {
+border-bottom: 1px solid #EEE;
+color: #292A2A;
+font-family: Segoe UI,Lucida Grande,UnDotum,Arial,Helvetica,sans-serif;
+font-size: 11px;
+position: relative;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.leftFiltersJew .listitemsnew a {
+    color: #292A2A;
+    font-family: Segoe UI,Lucida Grande,UnDotum,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    position: relative;
+}
+
+.leftFiltersJew .listitemsnew a:hover{
+	color: #008000;
+	text-decoration: underline;
+}	
+	
+.homeBannerDeals_cont_outer_jul2012 {
+        border-bottom: 2px solid #EAEAEA;
+        border-left: 2px solid #EAEAEA;
+        border-right: 2px solid #EAEAEA;
+        font-size: 12px;
+        padding: 5px 15px;
+}
+
+.leftFiltersJew {
+    padding: 5px 8px;
+	}
+	
+.homeBannerDeals_cont_outer_jul24{border-left:2px solid #eaeaea;border-right:2px solid #eaeaea;border-bottom:4px solid #eaeaea;font-size:12px;}
+
+.home_buynow{display:none;position: absolute;margin-top: -42px; margin-left: 42px;}
+
+.button10,.home_buynow{
+    background: none repeat scroll 0 0 #FFC42B;
+    color:#000000;float:left;
+    font-family:arial,helvetica,sans-serif;font-size:12px;font-weight: 600;
+    padding:2px 16px;
+    text-shadow:1px 1px 0 #FFE093;
+    border: 1px solid #E6A400;
+    box-shadow: 1px 1px 5px #C0C0C0;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+.button10:hover,.home_buynow:hover{
+    background: none repeat scroll 0 0 #FFC42B;
+    display:inline-block;
+}
+.button10 a,.home_buynow a{text-decoration:none;color:#000000;}
+
+.home-proddeals-cont:hover .home_buynow{
+    text-decoration:none;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background: none repeat scroll 0 0 #FFC42B;
+    color:#000000;font-family:arial,helvetica,sans-serif;
+    font-size:12px;font-weight: 600;padding:2px 16px;
+    text-shadow:1px 1px 0 #FFE093;
+    border: 1px solid #E6A400;
+    box-shadow: 1px 1px 5px #C0C0C0;
+    display:inline-block; 
+}
+
+.home-proddeals-cont:hover .home_buynow:hover{
+    background: none repeat scroll 0 0 #FFC42B;
+    display:inline-block; 
+}

@@ -1,0 +1,714 @@
+/*ip_style.css*/
+body{
+	background-color: #FFF;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+#main{position: relative;text-align: center;width: 750px;margin: 15px auto;}
+p{margin: 0;padding: 0;}
+ul{list-style: none outside none;margin: 0;padding: 0;}
+a{color: #039;text-decoration:none;}
+a:hover{
+	text-decoration: underline;
+	color: #CBCBCB;
+}
+#wrapper{width: 1000px;margin: 0 auto;padding: 30px 0 20px;}
+#topStripIn .topRightLinkArea a{margin-right: 0;margin-left: 10px;}
+#ipLogo{width: 172px;float: left;margin-right: 90px;}
+.searchArea{width: 690px;float: left;padding-top: 30px;margin-left: 28px;}
+.searchWord{width: 54px;float: left;margin-right: 12px;padding-top: 5px;}
+.searchArea .textField{width: 500px;font-family: Arial, Helvetica, sans-serif;font-size: 12px;}
+.searchArea .goButton{font-family: Arial, Helvetica, sans-serif;font-size: 12px;}
+#spotArea, #linkHdr{width: 964px;height: auto;  margin: 0 auto 20px;}
+#spotArea #leftLnkArea{width: 180px;float: left;margin-right: 10px;padding: 0 10px;}
+#leftLnkArea a, #leftLnkArea a:visited{display: block;line-height: 20px;color: #999;text-decoration: none;padding-left: 15px;border-bottom: 1px solid #454545;}
+#leftLnkArea a:hover{color: #fff;background-color: #1e1c1c;}
+#spotArea #rtArea{width: 750px;float: left;margin: 0 0 0 4px;}
+#spotArea #rtArea #virtualPath{font-size: 11px;line-height: 26px;border-bottom: 0;width: 750px;margin-left: 6px;padding: 0;}
+#belowSpot{margin-left: 2px;margin-right: auto;padding-bottom: 30px;width: 980px;position: relative;}
+#belowSpot.searchResult{padding-top: 30px;}
+#leftFilterArea {float: left;font-size: 12px;margin-left: 0px;margin-right: 4px;width: 220px;}
+#leftFilterArea .filterHdr {background-color: #142C45;height: 35px;line-height: 35px;font-family: "Segoe UI",arial,helvetica,clean,sans-serif;font-size: 13px;font-weight: 700;color: white;border-radius: 4px 4px 0 0;padding-left: 10px;}
+#leftFilterArea .filterMain{background-color: #f9f9f9;border-left: 1px solid #ecebeb;border-right: 1px solid #ecebeb;padding: 10px;}
+#leftFilterArea .filterBottom{height: 10px;margin-top: -8px;border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;border-bottom: 1px solid #EEEEEE;border-radius: 0 0 4px 4px; }#leftFilterArea .subHdr{font-weight: 700;padding-bottom: 10px;overflow: hidden;}#leftFilterArea .subHdr a, #leftFilterArea .subHdr a:visited{color: #666;display: block;}#leftFilterArea .leftFilters{font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;font-size: 13px;color: #666;line-height: 18px;}#leftFilterArea input{font-size: 11px;vertical-align: middle;}#leftFilterArea .sepLine{height: 8px;border-bottom: 1px solid #ccc;margin-bottom: 8px;}#skuAreaSm, #skuAreaSmBot{width: 750px;   background-position: left top;background-repeat: no-repeat;float: left;}#skuAreaSmMain{background-color: #fff;border-left: 1px solid #ababab;border-right: 1px solid #ababab;margin: 0;padding: 10px 5px 0;}#skuAreaSmBot{border: 1px solid #ababab;border-top: none;border-radius: 0px 0px 4px 4px;height: 8px;background-position: left -73px;background-repeat: no-repeat;width: 748px;}#skuAreaSm .topLine{border: 1px solid #ABABAB;width: 743px;color: #666;padding-top: 5px;padding-bottom: 3px;  padding-left: 5px;border-radius: 4px 4px 0px 0px;border-bottom: 0px;}#skuAreaSm .prodNoArea{width: 200px;float: left;}#skuAreaSm .prodNo{font-size: 14px;font-weight: 700;color: #000;}#skuAreaSm .pageNos{width: 400px;float: right;text-align: right;font-size: 12px;}#skuAreaSm .skuRow{border-bottom: 1px solid #ddd;padding: 5px 0px 0px 0px;position: relative;}#skuAreaSm .skuRow:hover{background-color: #FaFaFa;}#skuAreaSm .skuImg{width: 150px;float: left;}#skuAreaSm .skuAreaRt{  float: left;margin-left: 10px;width: 575px;margin-top: 10px;}#skuAreaSm .skuName a, #skuAreaSm .skuName a:visited,#skuAreaSm .skuName a:hover{font-family: calibri,arial,tahoma,verdana,sans-serif;font-weight: 700;font-size: 1.50em;color: #121212;text-decoration: none;}#skuAreaSm .col1{font-family: calibri,arial,tahoma,verdana,sans-serif;float: left;margin-right: 5px;width: 195px;}#skuAreaSm .col2{font-family: calibri,arial,tahoma,verdana,sans-serif;border-left: 1px solid #A9A9A9;float: left;margin-bottom: 5px;padding-left: 9px;width: 250px;}#skuAreaSm .col3{width: 141px;float: left;padding-left: 9px;border-left: 1px solid #a9a9a9;}#skuAreaSm .browseCol3{position: absolute;bottom: 55px;right: 5px;display: block;}#skuAreaSm .col2 ul{list-style-type: circle;margin-left: 10px;padding-left: 10px;line-height: 18px;}.compareCol3 .buyNow{background-position: left top;background-repeat: no-repeat;float: left;height: 37px;width: 106px;}.compareCol3 .buyNow a{background:url(http://images.indiaplaza.com/indiaplazaimages/buyNow-s.png) no-repeat 0 -37px;padding: 15px 52px;}.compareCol3 .buyNow a:hover, .compareCol3 .buyNow a:focus{background-position: 0 7px;}*:first-child+html .buyNow a{ background: url(http://images.indiaplaza.com/indiaplazaimages/buyNow-s.png) no-repeat 0 -37px;   padding: 12px 17px 12px 18px;  display: block; }*:first-child+html .buyNow a:hover,*:first-child+html .buyNow a:focus { background: url(http://images.indiaplaza.com/indiaplazaimages/buyNow-s.png) no-repeat;background-position: 0 0;}*:first-child+html .browseCol3 .buyNow a{background:url(http://images.indiaplaza.com/indiaplazaimages/buyNow-s.png) no-repeat 0 -37px; padding: 0 52px; height: 37px; }*:first-child+html .browseCol3 .buyNow a:hover, .browseCol3 .buyNow a:focus{background-position: 0 0;}@media \0screen{}.descCol .addCartBut a, #fdpBelowSpot .addCartBut a{background:url(http://images.indiaplaza.com/indiaplazaimages/addToCart.png) no-repeat;}.descCol .addCartBut a:hover, .descCol .addCartBut a:focus, #fdpBelowSpot .addCartBut a:hover, #fdpBelowSpot .addCartBut a:focus{ background-position: 0 -39px;}.browseCol3 .buyNow a{background:url(http://images.indiaplaza.com/indiaplazaimages/buyNow-s-orange.png) no-repeat 0 -30px;padding: 8px 52px;}.browseCol3 .buyNow a:hover, .browseCol3 .buyNow a:focus{background-position: 0px 0px;}.fdpsectiontile{font-family: "lucida grande",tahoma,verdana,arial,sans-serif;	font-size: 13px;color: #CC0000;}.fdpsectiontile h2{font-family: "lucida grande",tahoma,verdana,arial,sans-serif;	font-size: 14px;color: #CC0000;padding-left: 330px;padding-bottom : 5px;   letter-spacing: 1px;}.col3 .compareButElect{background-position: left -303px;height: 37px;margin-bottom: 8px;}.col3 .compCheckBox{float: left;width: 20px;margin: 8px 0 0 8px;}.cRow{border-bottom: 1px solid #E5E5E5;clear: both;margin-bottom: 8px;}.col3 .moreDet{background-position: left -195px;height: 25px;margin-bottom: 8px; display: none;}.spotLeft{width: 336px;float: left;}.spotRt{width: 414px;float: left;}.footerFbBg{clear: both;  }.footerFb{width: 940px;overflow: hidden;margin: 0 auto;}#footerBg{background-color: #10104A;padding: 20px 40px;}
+#footer{font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 10px;width: 940px;margin: 0 auto;}
+.footerCols{border-left: 1px solid #666;float: left;padding-left: 16px;width: 250px;}
+.footerHdr{color: #F90;font-weight: 700;line-height: 16px;}
+#footer a{color: #989898;display: block;line-height: 16px;padding-left: 8px;text-decoration: none;}
+.footerTestiCol{border-left: 1px solid #666;color: #989898;float: left;line-height: 14px;padding-left: 16px;width: 339px;}
+.footerFb .mailCol{width: 469px;float: left;padding-top: 0;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9px;text-transform: uppercase;color: #666;border-right: 1px dotted #666;line-height: 55px;}
+.footerFb .fbCol{width: 437px;float: right;}
+.footerFb .mailCol .subButton{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9px;font-weight: 700;text-transform: uppercase;color: #666;}
+.footerHorLine{height: 1px;border-top: 1px solid #191919;border-bottom: 1px solid #666;margin: 30px auto;}
+.paymentOptArea{width: 694px;height: 157px;background-color: #fff;margin: 0 auto 20px;}
+.paymentOptArea .leftBorder, .paymentOptArea .rtBorder, .verify, .pciCompliant, .payOptLogos, .searchWord1, .fillArrowDown, .fillArrowCollapse{background-image: url(http://images.indiaplaza.com/indiaplazaimages/common_bg_images.png);background-position: -294px -117px;background-repeat: no-repeat;width: 8px;height: 157px;float: left;}
+.paymentOptArea .midArea{width: 678px;float: left;}
+.paymentOptArea .rtBorder{background-position: -313px -117px;}
+.paymentOptArea .midArea .visa{width: 372px;float: left;text-align: center;padding-top: 18px;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9px;border-right: 1px solid #e6e6e6;height: 139px;}
+.paymentOptArea .midArea .payOptions{width: 304px;float: left;text-align: center;padding-top: 22px;}
+.verify{width: 267px;height: 48px;background-position: -330px -117px;background-repeat: no-repeat;float: none;margin: 0 53px;}
+.smCapTxt{text-transform: uppercase;font-weight: 700;color: #999;}#footer .paymentOptArea a{display: inline;color: #00c;padding: 0;}
+.pciCompliant{width: 124px;height: 37px;background-position: -605px -117px;background-repeat: no-repeat;float: none;margin: 5px 124px 0;}
+.payOptLogos{width: 206px;height: 40px;background-position: -330px -171px;background-repeat: no-repeat;float: none;margin: 5px 49px;}
+.sepLine1{height: 6px;border-bottom: 1px solid #e1e1e1;margin-bottom: 6px;}
+.searchWord1{width: 54px;height: 15px;background-position: -605px -171px;float: left;margin-right: 12px;margin-top: 5px;}
+#leftLnkArea #linkHdr{width: 100px;height: 15px;background-position: -205px -425px;background-repeat: no-repeat;margin: 15px auto;}
+.fillArrowDown, .fillArrowCollapse{width: 14px;height: 12px;background-position: -330px -216px;}
+.fillArrowCollapse{background-position: -345px -216px;}
+.fbTwitG{width: 393px;height: 55px;background-position: -330px -232px;}
+.compareSkuName a, .compareSkuName a:visited{font-size: 14px;font-weight: 700;color: #666;text-decoration: none;}
+.comparePageArea{width: 980px;margin-top: 12px;font-size: 11px;color: #666;padding-bottom: 12px;}
+.firstRow{background-image: none;overflow: hidden;}.compareCol1, .compareCol2, .compareColLast{height: 230px;width: 190px;float: left;border-right: 1px solid #dbdbdb;line-height: 16px;position: relative;}.compareCol1{padding-left: 20px;  width: 170px;font-size: 12px;font-weight: bold;}.compareCol2, .compareColLast{width: 146px;text-align: center;}.compareColLast{border-right: none;}.blankCol1{height: 230px;margin-left: 20px;}.removeCell{text-align: right;margin: 0 0 -13px;padding: 2px 2px 0 0;}.pageHdr{color: #454545;font-size: 16px;font-weight: 700;line-height: 24px;padding-left: 22px;}
+#virtualPath{font-family: tahoma,verdana,arial,sans-serif;font-size: 12px;line-height: 16px;margin-left: 10px;padding: 15px 0 5px;white-space:nowrap;}.compareBuyNow{background-image: url(http://images.indiaplaza.com/indiaplazaimages/buttons.png);background-position: left top;background-repeat: no-repeat;height: 37px;width: 103px;margin: 4px auto 8px;}.scroll{   }.greyRow{height: auto; background-color: #CCDAEA;background-position: left top;background-repeat: repeat-x;overflow: hidden;vertical-align: middle;width: 940px;margin-left: 20px;}.whiteRow{background-image: none; width: 940px;margin-left: 20px;overflow: hidden;height: auto;}.cLines{background-position: left top;background-repeat: repeat-y;height: auto;min-height: 25px;}.pt24{padding-top: 4px;color: #424141;}.fdpHalfCol{width: 482px;float: left;}.fdpHalfCol .smCol{width: 96px;float: left;text-align: center;}.camFdpSubHdrs{color: #333333;font-size: 18px;line-height: 22px;padding: 8px 0 0 10px;}.fdpMiniCol{width: 80px;float: left;text-align: center;margin: 0 4px 10px;}.top5Name{color: #369;margin-top: 5px;height: 42px;font-size: 12px;font-weight: 700;line-height: 14px;}.top5Price{color: #000;font-size: 11px;font-weight: 700;line-height: 18px;margin: 0;}.TabbedPanels{clear: none;width: 960px;margin: 12px auto 10px;}.tabBg{-moz-user-select: none;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_tab_right.png);background-position: right top;background-repeat: no-repeat;color: #000;cursor: pointer;float: left;font-family: Arial, Helvetica, sans-serif;font-size: 13px;font-weight: 700;height: 32px;line-height: 32px;list-style-image: none;list-style-position: outside;list-style-type: none;text-decoration: none;margin: 0;padding: 0;}.tabBg span{background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_tab_left.png);background-position: left top;background-repeat: no-repeat;height: 32px;color: #585858;margin: 0;padding: 8px 10px;}.TabbedPanels li{color: #000;padding: 0;}.tabBgActive{-moz-user-select: none;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_tab_right.png);background-position: right -34px;background-repeat: no-repeat;cursor: pointer;float: left;font-family: Arial, Helvetica, sans-serif;font-size: 13px;font-weight: 700;height: 32px;line-height: 32px;list-style-image: none;list-style-position: outside;list-style-type: none;text-decoration: none;color: #fff;margin: 0;padding: 0;}.tabBgActive span{background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_tab_left.png);background-position: left -34px;background-repeat: no-repeat;height: 32px;color: #fff;margin: 0;padding: 8px 10px;}.TabbedPanelsContentGroup{border: 1px solid #CCC;clear: both;border-top: 3px solid #052341;margin: 0;}.TabbedPanelsContent{background-color: #fff;font-family: "lucida grande",tahoma,verdana,arial,sans-serif;font-size: 13px;text-align: left;color: #333333;line-height: 18px;margin: 0;padding: 0 10px 10px;}.TabbedPanelsContent .inContent{height: 265px;overflow: auto;}.TabbedPanelsContent .subHdrs{font-weight: 700;color: #000;margin-bottom: 6px;border-bottom: 1px dotted #333;padding: 12px 0 3px;}.wBold{color: #FFD700;}.fdpNormShip{color: #545454;font-family: tahoma,calibri,arial,tahoma,verdana,sans-serif;  font-size: 13px; line-height: 10px; line-height: 12px;width: 245px;padding-bottom: 5px;}.fdpbksNormShip{color: #454545;font-family: Arial,Helvetica,sans-serif;font-size: 12px;line-height: 10px;}.fdpEdition{color: #008B00;font-family: calibri,arial,tahoma,verdana,sans-serif;font-size: 13px;font-weight: 700;line-height: 10px;}.padt8{padding-top: 8px;}.padt12{padding-top: 12px;}.camFdpHdr{background-image: url(http://images.indiaplaza.com/indiaplazaimages/cam_fdp_hdr.png);background-position: left top;background-repeat: no-repeat;height: 164px;overflow: hidden;width: 953px;padding: 20px 0 0 27px;}.camBotAreaTop, .camBotAreaBot{background-image: url(http://images.indiaplaza.com/indiaplazaimages/camera_bg_img_1.png);background-position: left top;background-repeat: no-repeat;height: 39px;}.camMainArea{background-image: url(http://images.indiaplaza.com/indiaplazaimages/cam_main_bg_mid.png);background-position: left top;background-repeat: repeat-y;font-size: 13px;line-height: 18px;width: 964px;margin: 4px auto 0;}.camBotAreaBot{background-position: left -42px;height: 7px;}.fdpHdrTxt{color: #369;font-size: 28px;padding-top: 0;line-height: 22px;margin-left: 0;float: none;height: 90px;}.fdpHdrTag{color: #585858;font-size: 13px;margin-top: 5px;}.camFdpTopArea{height: 155px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/camera_bg_img_1.png);background-position: left -52px;background-repeat: no-repeat;}.priceArea{width: 200px;float: left;font-size: 12px;line-height: 16px;padding: 30px 0 0 10px;}.fdpBuyBut{width: 138px;text-align: center;float: left;padding-top: 18px;}.fdpOfferLine{font-size: 14px;color: #c00;padding-top: 5px;font-weight: 700;}.fdpOfferLineBrowse{font-size: 14px;color: #c00;padding-top: 2px;font-weight: 700;}.fdpRewardLine{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9px;text-transform: uppercase;color: #cfcfcf;font-weight: 700;text-align: center;margin: 12px 0 0;}.descColSkuName{color: #369;font-size: 20px;}.descCol p{margin-top: 10px;}.fbLike{float: left;margin-right: 15px;width: 52px;}.fbLikeText{float: left;margin-right: 30px;width: auto;}.tweet{float: left;margin-right: 15px;width: 96px;}.fdpLgViewSkuFbEtc{width: 720px;margin-top: 25px;}.largerView{width: 320px;text-align: center;float: left;}.fdpFbEtc{width: 390px;padding-left: 10px;float: left;}.fdpMainRtArea{background-position: left top;background-repeat: no-repeat;float: left;font-size: 11px;font-weight: 400;margin-left: 21px;margin-top: 12px;width: 164px;}.facebookNumber{font-size: 13px;font-weight: 700;padding: 20px 0 0 40px;}.facebookText{font-size: 11px;font-weight: 400;}.fdpRtResources{line-height: 18px;padding: 60px 10px 0;}.fdpRtResources .hdrTxt{font-size: 13px;font-weight: 700;}.fdpFeelGood{width: 147px;padding: 90px 0 0 10px;}.fdpTabType{clear: none;width: 960px;border-bottom: 3px solid #052341;margin: 12px auto 0;}.fdpTabType li{color: #000;padding: 0;}.tabBg span a{color: #666;}.fdpTabText{width: 938px;border: 1px solid #ccc;border-top: none;color: #4B4B4B;font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 11px;line-height: 18px;text-align: left;margin: 0 auto;padding: 10px;}.fdpTabText .subHdrs{border-bottom: 1px Solid #666;color: #336699;font-weight: 700;margin-bottom: 6px;padding: 6px 0 3px;}.fdpSpecCol, .fdpSpecColMid{background-image: url(http://images.indiaplaza.com/indiaplazaimages/grey_dot.png);background-position: 125px top;background-repeat: repeat-y;border: 1px solid #E6E6E6;float: left;font-size: 11px;width: 295px;}.fdpSpecColMid{margin: 0 14px;}.fdpSpecCol1{float: left;font-weight: 700;padding-left: 5px;width: 120px;}.fdpSpecCol2{float: left;padding-left: 5px;width: 164px;}.rowLine{background-color: #CCC;clear: both;height: 1px;}.hashAnchor{font-size: 2px;color: #fff;padding-bottom: 30px;}.camPromoHdr, .camMainHdr{color: #333;font-size: 18px;line-height: 39px;padding-top: 4px;}.fdpSimProdsCol{float: left;text-align: center;width: 192px;margin-left: 2px;}.accessName {color: #336699;font-family: Arial,Verdana,Helvetica,sans-serif;font-size: 12px;height: 40px;padding-top: 10px;text-decoration: none;}.recViewedName{   margin-left :5px;text-align: center;   padding-top: 5px;width:100px;height: 50px; font-family: "Segoe UI",Tahoma, Verdana, Geneva, sans-serif;color: #003399;font-size: 12px;   }.recViewedName a{float: left;padding-top: 5px; width:100px;height: 50px; font-family: "Segoe UI",Tahoma, Verdana, Geneva, sans-serif;color: #003399;font-size: 12px;   margin-left :20px;text-align: center;   }.recViewedName:hover{  width: 122px;   font-family: "Segoe UI",Tahoma, Verdana, Geneva, sans-serif;color: #f57124;font-size: 12px;   margin-left :5px;text-align: center;   }.recViewedName a:hover{width:100px;height: 50px; font-family: "Segoe UI",Tahoma, Verdana, Geneva, sans-serif;color: #f57124;font-size: 12px;margin-left :20px;text-align: center;   }.recViewedImg{float: left;width: 50px;padding-left: 35px;}.fdpCustTags{font-size: 13px;line-height: 18px;width: 440px;margin: 0 auto;}.addTags{border-top: 1px dotted #454545;font-size: 12px;font-weight: 700;line-height: 22px;text-align: right;}.googleAd{border-bottom: 1px solid #E6E6E6;border-top: 1px solid #E6E6E6;text-align: center;margin: 12px auto;padding: 10px 0;}.seoFooter{color: #666;font-size: 10px;line-height: 12px;text-align: center;width: 960px;margin: 8px auto;}.seoFooterHdr{font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 11px;font-weight: 700;}#LeftNaviArea{width: 200px;height: 334px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/camera_bg_images.png);background-position: left -84px;background-repeat: no-repeat;padding-top: 2px;margin: 0 auto 20px;}.specColr{float: left;font-size: 11px;width: 420px;}.specHdr{font-size: 18px;color: #369;margin-bottom: 6px;}.marL{margin-left: 95px;}.specMidLine, .specBotSep{background-image: url(http://images.indiaplaza.com/indiaplazaimages/grey_dot.png);background-position: 175px top;background-repeat: repeat-y;}.specBotSep{height: 1px;background-position: left top;background-repeat: repeat-x;clear: both;}.specColr .fdpSpecCol1r{width: 145px;padding-right: 25px;float: left;padding-left: 5px;font-weight: 700;border-bottom: 0 solid #ccc;}.specColr .fdpSpecCol2r{width: 231px;float: left;padding-left: 10px;border-bottom: 0 solid #ccc;}#leftLnkArea .active{border-bottom: 1px solid #454545;color: #ccc;display: block;line-height: 20px;padding-left: 10px;background-color: #000;border-left: 5px solid #ec7100;}.leftBlkStrip{width: 200px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/leftBlkStrip.png);background-position: left bottom;background-repeat: no-repeat;padding-bottom: 20px;margin-bottom: 16px;}.leftBlkStrip #leftLnkArea{float: none;margin-right: 10px;width: 180px;padding: 0 10px;}.leftBlkStripTop{width: 200px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/leftBlkStrip_top.png);background-position: left top;background-repeat: no-repeat;height: 20px;text-align: center;padding-top: 15px;}.leftBlkStripTop #mainLinkHdr{background-image: url(http://images.indiaplaza.com/indiaplazaimages/camera_bg_images.png);background-position: -205px -443px;background-repeat: no-repeat;height: 15px;width: 84px;margin: 0 auto 15px;}#browseRtArea{float: right;width: 744px;margin: 0 0 0 4px;}#filters{border-bottom: 1px solid #E6E6E6;font-size: 11px;line-height: 26px;margin: 0 0 6px 10px;}#filtersArea{border-bottom: none;line-height: normal;font-size: 11px;margin: 0;}#filtersArea .filters{line-height: 22px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/remove_cross.png);background-position: left top;background-repeat: no-repeat;font-family: Verdana, Geneva, sans-serif;font-size: 9px;text-transform: uppercase;font-weight: 700;color: #999;padding: 0 6px 0 12px;}.variantArea, .lastVariantArea{border-top: 1px solid #E6E6E6;overflow: hidden;padding: 0;}.variantArea .label, .lastVariantArea .label{color: #369;float: left;font-size: 12px;font-weight: 700;line-height: 35px;width: 110px;}.asterisk{color: #EC7100;font-size: 13px;display: none;}.variantArea .value, .lastVariantArea .value{float: left;height: 35px;width: 260px;}.variantDropDownBg{width: 246px;height: 27px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_select_one_dropdown_1.png);background-position: left top;background-repeat: no-repeat;padding: 6px 0 0 10px;}.variantTxtField{font-family: Arial, Helvetica, sans-serif;font-size: 11px;width: 230px;}.input{background-color: #f2f2f2;border: 1px solid #ccc;}select{background-color: #fff;border: 1px solid #ccc;font-family: calibri,arial,tahoma,verdana,sans-serif}.fdpHdrTxtArea{float: left;width: 435px;padding-top: 10px;margin: 0 0 0 10px;}#skuAreaSm .pageNosBot{text-align: right;margin-top: 8px;font-size: 12px;}.mobArea{padding: 10px;}h2{font-size: 30px;font-weight: 400;margin: 0;padding: 0;}.lineSpacer{height: 12px;border-top: 1px dotted #666;clear: both;}.oopsHdr{text-align: center;color: #e27911;}
+.oopsText{height: 120px;width: 360px;line-height: 24px;border: 5px solid #e27911;margin: 0 auto;padding: 50px 15px 0;}
+
+.subCatLeftNav li a{color: #003399;display: block;font: 12px/1.231 "lucida grande" ,tahoma,verdana,arial,sans-serif; font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}
+.subCatLeftNav li a:visited{color: #003399;display: block;font: 12px/1.231 "lucida grande" ,tahoma,verdana,arial,sans-serif; font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}
+.subCatLeftNav li a:visited:hover{color: #BD0800;display: block;font: 12px/1.231 "lucida grande" ,tahoma,verdana,arial,sans-serif; font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}
+.subCatLeftNav li a:hover{color: #BD0800;display: block;font: 12px/1.231 "lucida grande" ,tahoma,verdana,arial,sans-serif; font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}
+.fdpCrosssellCol{float: left;text-align: center;width: 175px;padding-top: 12px;padding-left: 5px;}.browseColMid{font-size: 1.12em;float: left;overflow: hidden;width: 465px;}.browsePromoArea{   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 56%, rgba(244,244,244,1) 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(56%,rgba(252,252,252,1)), color-stop(100%,rgba(244,244,244,1))); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(252,252,252,1) 56%,rgba(244,244,244,1) 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(252,252,252,1) 56%,rgba(244,244,244,1) 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(252,252,252,1) 56%,rgba(244,244,244,1) 100%); /* IE10+ */background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(252,252,252,1) 56%,rgba(244,244,244,1) 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-8 */clear: both;color: #000;line-height: 21px;text-align: center;font-size: 9px;text-transform: uppercase;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: 700;padding-right: 118px;margin: 0;}.bksbrowsedtlsArea{clear: both;color: #333333;line-height: 17px;padding-right: 5px;text-align: left;font-size: 13px;font-family: calibri,tahoma,verdana,arial,sans-serif;}.bksbrowsedtlsArea a{clear: both;color: #E54F01;line-height: 17px;padding-right: 5px;text-align: left;font-size: 13px;font-family: calibri,tahoma,verdana,arial,sans-serif;}.bksbrowsedtlsArea: hover{clear: both;color: #E54F01;line-height: 17px;padding-right: 5px;text-align: left;font-size: 13px;font-family: calibri,tahoma,verdana,arial,sans-serif;}.bksbrowsedtlsArea a: hover{clear: both;color: #E54F01;line-height: 17px;padding-right: 5px;text-align: left;font-size: 13px;font-family: calibri,tahoma,verdana,arial,sans-serif;}.bksshptdtlsArea{clear: both;color: #000;padding-right: 5px;text-align: left;font-family: Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;color: #454545;width: 410px;}.bksfdpltrArea{float: left;padding: 0 0 0 10px;margin-top: 20px;color: #333333;line-height: 16px;padding-top: 5px;text-align: left;font-size: 12px;font-family: "lucida grande",tahoma,verdana,arial,sans-serif;width: 300px;}h1{font-family: Arial, Helvetica, sans-serif;font-size: 22px;color: #454545;font-weight: 400;margin: 0;padding: 0 0 3px;}.codImgOnly, .callOrderOnly{background-image: url(http://images.indiaplaza.com/indiaplazaimages/common_bg_images.png);background-position: right -32px;background-repeat: no-repeat;border-bottom: 1px solid #E6E6E6;height: 79px;overflow: hidden;width: 980px;margin: 0 auto 5px;padding: 0 0 5px;}.callOrderOnly{background-position: -112px -194px;border-bottom: medium none;height: 46px;width: 114px;margin: 30px auto 0;}.codImgOnly{background-position: -112px -250px;border-bottom: medium none;height: 46px;width: 140px;margin: 30px auto 0;}.delDateQuest{font-family: tahoma,verdana,arial,sans-serif;ffont-size: 13px; color: #545454;}.delDateQuest a{color: #336699;font-family: tahoma,verdana,arial,sans-serif;font-size: 13px;font-weight: 700;padding: 0 1px;}.fbColText{width: 330px;float: right;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fb_twitter.png);background-repeat: no-repeat;height: 54px;}.fbbtn{background-position: -329px 0;width: 33px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fb_twitter.png);background-repeat: no-repeat;height: 54px;}.twtbtn{background-position: -362px 0;width: 33px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fb_twitter.png);background-repeat: no-repeat;height: 54px;}.gogbtn{background-position: -394px 0;width: 53px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fb_twitter.png);background-repeat: no-repeat;height: 54px;} #leftFilterArea .subHdr a:hover,  #filtersArea .filters a:hover{text-decoration: none;color: #326799;}.boldFont, .blkBold{font-weight: 700;color: #000;}#skuAreaSm .pageNos a, #skuAreaSm .pageNosBot a{color: #666;padding: 0 5px;}.skuDesc, .marB16{margin-bottom: 16px;}.skuDesc {margin-top: 2px;margin-bottom: 10px;}.mrp, .fdpMrp{color: #545454;text-decoration: line-through;}.ourPrice, .fdpOurPrice{/*margin-top: 5px;*/ color: #000; }.compareOurPrice{color: red;position: absolute;left: 22px; text-align: center;}.blueFont, .seoFooter a{color: #336699;font-weight: bold;}.ourPrice .blueFont {font-family: calibri,arial,tahoma,verdana,sans-serif;color: #E54F01;margin-top: 5px;font-size: 1.2em;}.col1 .save {color:#003399;margin-top: 3px;}.save, .fdpSave, .freeShip{color: #003399; margin-top: 3px;}.blk, .compareSkuName a:hover{color: #000;}.comparePrice, .accessPrice, accessPrice1, .accessPrice1 a{border-bottom: 1px solid #E6E6E6;border-top: 1px solid #E6E6E6;color: #000;font-size: 12px;font-weight: 700;line-height: 24px;margin: 4px 0;}.top5Name a, .top5Name a:hover{color: #369;text-decoration: none;}.tabBg .tabBgspan:hover{color: #000;text-decoration: none;}.marT16, .mart{margin-top: 16px;}.accessName1, .accessName1 a{color: #369;font-family: Arial,Verdana,Helvetica,sans-serif;font-size: 12px;font-weight: 700;height: 30px;text-decoration: none;padding-top: 15px;}.itemDelTime{font-size: 9px;}.fdpDeliveryDate{font-size: 9px;line-height: 10px;padding-left: 2px;border-left: 6px solid #e26911;}.fdpDeliveryDate a{}.mar8{margin-top: 8px;}.greyFont{color: #333333;}.greyFont: hover{color: #F57124;}.greyFont a:hover{color: #F57124;}.greyFont h2{text-align: left;font-size: 12px;font-family: "lucida grande",tahoma,verdana,arial,sans-serif;color: #333333;display: inline;font-weight: normal;}.greenFont{color: #008B00;}.custreview{cursor: pointer;color: #0066cc;}.custreview:hover{cursor: pointer;color: #0066cc;text-decoration: underline;}.reviewby{color: #004B91;}.fdpNormShipTemp{padding-top: 5px;font-variant: inherit;color: #545454;text-transform: lowercase;}.fdpNormShipTemp:first-letter {padding-top: 5px;text-transform:capitalize; }.fdpDeliveryDateTemp{font-size: 9px;line-height: 10px;padding-left: 2px;border-left: 6px solid #e26911;}.fdpDeliveryDateTemp a{}#ipLogo1{width: 182px;height: 76px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/ip_logo_mo.png);background-position: left top;background-repeat: no-repeat;float: left;margin: 5px 80px 0 0;border-bottom: none;padding: 0;}#ipLogo1 a{background-image: url(http://images.indiaplaza.com/indiaplazaimages/ip_logo_mo.png);background-position: left top;background-repeat: no-repeat;height: 76px;width: 182px;display: block;text-decoration: none;}#ipLogo1 a:hover{background-position: left bottom;}.mask{position: relative;background-color: #FFFFFF;height: 100%;display: block;left: 0;opacity: 0.5;filter: alpha(opacity = 50);top: 0;width: 100%;z-index: 100002;position: fixed;}.maskImage{opacity: 1;filter: alpha(opacity = 100);position: absolute;top: 50%;left: 50%;margin-top: -25px;margin-left: -25px;}#ajax_listOfOptions{ background-color: #FFFFFF;border: 1px solid #CCCCCC;font-size: 13px;overflow: auto;padding-top: 0;position: absolute;text-align: left;width: 449px;z-index: 100; }#ajax_listOfOptions div{   margin: 1px;cursor: pointer;font-size: 1.1em;}#ajax_listOfOptions .optionDiv{font-weight: 500;margin-left: 20px;}#ajax_listOfOptions .optionDivSelected{  background-color: #AAAAAA;color: #FFF;margin-left: 20px;}#ajax_listOfOptions_iframe{background-color: #F00;position: absolute;z-index: 5;}.warrantyBg{color: #454545; }.fdpSkuArea{background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_skuarea.png);background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_skuarea_1511.png);background-position: left top;background-repeat: no-repeat; margin: 0 auto;padding: 14px 0 20px 30px;width: 926px;}.fdpSkuArea .descCol{color: #545454;float: left;padding-left: 10px;padding-top: 14px;width: 390px;}.descCol p{margin: 0;padding: 0;margin-top: 10px;}.descCol .note{padding-bottom: 4px;border-bottom: 1px dotted #666;padding-left: 10px;}.descCol .priceArea{float: left;font-size: 12px;line-height: 16px;padding: 15px 0 0 0px;width: 180px;}.descCol .addCartBut{width: 182px;height: 37px;float: left;margin: 30px 0 0 30px;}.fdpFbEtc{width: 390px;padding: 6px 0 0 10px;float: left;}.variantArea .label, .lastVariantArea .label{color: #336699;float: left;font-size: 12px;font-weight: bold;line-height: 35px;width: 125px;}.fdpMainRtArea{background-image: url("http://images.indiaplaza.com/indiaplazaimages/fdp_fb_area.png");background-image: none;background-position: left top;background-repeat: no-repeat;float: left;font-size: 11px;font-weight: normal;margin-left: 21px;margin-top: 12px;width: 164px;}.fbTwitterG{width: 164px;height: 24px;text-align: right;}.fdpSkuAreaTop, .fdpSkuAreaBot{width: 956px;margin: 12px auto 0;background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_sku_area_crvs.png);background-position: left top;background-repeat: no-repeat;height: 21px;}.fdpSkuAreaBot{background-position: left bottom;margin: 0 auto;}.fdpSkuArea{background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_sku_area_bg.png);background-position: left top;background-repeat: repeat-y; margin: 0 auto; padding: 14px 0 0px 30px;width: 929px;}.fdpSkuArea .descCol{color: #666666;float: left;padding-left: 10px;padding-top: 14px;width: 575px;}.variantArea{border-top: 1px dotted #666;overflow: hidden;padding: 5px 0 0 0;}.promoBoxArea{overflow: hidden;padding: 5px 0;border-bottom: 1px dotted #666666;}.smVariantBg{width: 135px;height: 28px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/variant_bg_sm.png);background-position: left top;background-repeat: no-repeat;float: left;   float: left;}.smVarTxtField{width: 125px;height: 18px;font-family: Arial, Helvetica, sans-serif;font-size: 11px; color: #336699;}.descCol .note{border-bottom: 1px dotted #666666;padding-bottom: 4px;font-size: 11px;padding-left: 10px;}.freebieBg, .promoBoxBg{width: 230px;height: 61px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/freebie_promo_bg.png);background-position: left bottom;background-repeat: no-repeat;float: left;margin-right: 20px;}.promoBoxBg{background-position: left top;}.freebieText{width: 176px;font-size: 12px; margin-left: 42px;padding-top: 18px;color: #454545;font-weight: bold;}.callOrderUnit{width: 120px;float: left;margin: 22px 45px 0;}.codUnit{width: 120px;height: 43px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/cod_call_order_units.png);background-position: -0px -0px;background-repeat: no-repeat;margin-top: 110px;}.callOrd{width: 120px;height: 43px;background-image: url(http://images.indiaplaza.com/indiaplazaimages/cod_call_order_units.png);background-position: -0px -42px;background-repeat: no-repeat;}.rewardPtsBg{clear: both;background-image: url(http://images.indiaplaza.com/indiaplazaimages/rewards_text_bg.png);background-position: left bottom;background-repeat: no-repeat;color: #fff;height: 23px;padding-top: 12px;line-height: 22px;text-align: center;font-size: 8px;text-transform: uppercase;margin-bottom: 12px;opacity: 0.7;}.ver9Bold{font-family: Verdana, Geneva, sans-serif;font-weight: bold;}.delDate{font-family: Arial, Helvetica, sans-serif;font-size: 9px;text-transform: uppercase;color: #ec7100;cursor: pointer;}.delDate a{font-family: Arial, Helvetica, sans-serif;font-size: 9px;text-transform: uppercase;color: #ec7100;cursor: pointer;}.descCol .addCartBut{width: 182px;height: 37px;float: left;margin: 70px 0 0 30px;}.descCol .addCartBut{width: 182px;height: 37px;float: right;margin: 30px 0 0 0px;}.goodWillTxt{margin: 10px 20px 0 -10px;padding: 10px 0 0;border-top: 1px solid #369;font-size: 11px;color: #666;text-align: center;font-weight: bold;line-height: 18px;background-color: #fff;}.fdpSkuArea .skuCol{float: left;text-align: center;width: 320px;min-height: 320px;}.otherViewsThumbsArea{overflow: hidden;}.othViewsThumbs{}.button, .button span{display: inline-block;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}.button{color: white;white-space: nowrap;line-height: 1em;position: relative;outline: none;overflow: visible; cursor: pointer;border: 1px solid #999;border: rgba(0, 0, 0, .2) 1px solid; border-bottom: rgba(0, 0, 0, .4) 1px solid;-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);box-shadow: 0 1px 2px rgba(0,0,0,.2);background: -moz-linear-gradient( 		center top, 		rgba(255, 255, 255, .1) 0%, 		rgba(0, 0, 0, .1) 100% 	); background: -webkit-gradient( 		linear, 		center bottom, 		center top, 		from(rgba(0, 0, 0, .1)), 		to(rgba(255, 255, 255, .1)) 	); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000'); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')"; -moz-user-select: none;-webkit-user-select: none;-khtml-user-select: none;user-select: none;margin-bottom: 10px;}.button.full, .button.full span{display: block;}.button:hover, .button.hover{background: -moz-linear-gradient( 		center top, 		rgba(255, 255, 255, .2) 0%, 		rgba(255, 255, 255, .1) 100% 	); background: -webkit-gradient( 		linear, 		center bottom, 		center top, 		from(rgba(255, 255, 255, .1)), 		to(rgba(255, 255, 255, .2)) 	); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#33FFFFFF', EndColorStr='#19FFFFFF'); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#33FFFFFF', EndColorStr='#19FFFFFF')"; }.button:active, .button.active{top: 1px;}.button span{position: relative;color: #fff;text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);border-top: rgba(255, 255, 255, .2) 1px solid;padding: 0.6em 1.3em;line-height: 1em;text-decoration: none;text-align: center;white-space: nowrap;}.button.small span{font-size: 14px;font-weight: bold;}.button.medium span{font-size: 14px;}.button.large span{font-size: 18px;}.button.black{background-color: #333333;}.button.gray{background-color: #666666;}.button.white{background-color: #FFFFFF;}.button.white span{color: #666666;}.button.red{background-color: #e62727;}.button.orange{background-color: #ff5c00;}.button.magenta{background-color: #A9014B;}.button.yellow{background-color: #ffb515;}.button.blue{background-color: #194170;}.button.pink{background-color: #e22092;}.button.green{background-color: #91bd09;}.button.rosy{background-color: #F16C7C;}.button.brown{background-color: #804000;}.button.purple{background-color: #800080;}.button.cyan{background-color: #46C7C7;}.button.gold{background-color: #D4A017;}.codCallOrdArea{width: 120px;float: left;margin: 22px 45px 0;}.inLeftBand {float: left;width: 200px;	margin-right: 10px;}.inLeftBand .topCrv, .inLeftBand .BotCrv {background-image: url("http://images.indiaplaza.com/indiaplazaimages/a_side_crvs_2911.png");background-position: left top;background-repeat: no-repeat;height: 7px;width: 200px;}#spotArea, #linkHdr {background-image: url("http://images.indiaplaza.com/indiaplazaimages/camera_bg_images.png");background-position: left -84px;background-repeat: no-repeat;height: auto;margin: 0 auto;width: 964px;}#spotArea  {	background-image: none;	margin-left: 20px;margin-top: 10px;float: left;}.inLeftBand .inLines {border-left: 1px solid #F4A949;border-right: 1px solid #F4A949;padding: 0 8px 8px;	min-height: 295px;font-size: 12px;}.inLeftBand .BotCrv {background-position: left -9px;margin-bottom: 0px;}.inLeftBand .links a, .inLeftBand .links a:visited {	line-height: 24px;	border-bottom: 1px solid #e7e7e7;	display: block;	color: #333;	padding-left: 5px;}.inLeftBand .links a:hover {	text-decoration: none;	color: #e27911;	background-color: #f7f7f7;}.inLeftBand .catTopCrv {background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_cat_top_crv.png);background-position: left top;background-repeat: no-repeat;height: 24px;width: 200px;}.leftNav1 {	float:left;	width:200px;	width: 206px;}.menu31 {	font-family: Arial, Helvetica, sans-serif;	width: 190px; 	position:relative; 	font-size:12px; 	z-index:1001;	clear:both; 	margin-left:10px; 	top:0; 	left:0; }.menu31 ul {	padding:0; 	margin:0; 	list-style-type: none;}.leftBandTopIn1 ul li a.fly{  	float:left; 	position:relative;	background:url(http://images.indiaplaza.com/indiaplazaimages/arrow.gif) no-repeat right center;}.menu31 ul li {	float:left; 	position:relative;}.links2 {}.menu31 ul li ul li{border-right: 1px solid orange;	}.menu31 li.last {	border-bottom:0px solid #00f; 	margin:0;}.menu31 ul li a, .menu31 ul li a:visited {	display:block; 	text-decoration:none; 	color:#000; 	width:179px; 	height:30px; 	color:#fff; 	border:0px solid #00f; 	border: 0; 	padding-left:10px; 	line-height:25px;	background-image: none;	}.menu31 ul li ul {	display: none;}.menu31 table {	margin:-1px; 	border-collapse:collapse;	font-size:1em;}.menu31 ul li:hover a {	color:#c00;	background-color: #000;	color: #fff;}.menu31 ul li:hover ul {	display:block; 	position:absolute; 	top:29px; 	margin-top: -1px; 	left:1px; 	width: 179px; 	height:auto;}.menu31 ul li:hover ul li ul {	display: none;}.menu31 ul li:hover a{	display:block; background-color: #ecf4f8;	color:#FFFFFF;	color: #004B91;	font-family: Arial,Helvetica,sans-serif;font-size: 12px;font-weight: bold;	height:auto; 	line-height:18px; 	padding:4px 10px;	width: 178px;	text-decoration: none;}.menu31 ul li:hover ul li a.drop {	background-color: #ccc;	background-image: none;}.menu31 ul li:hover ul li:hover a {	  color: #E97C03;	  }.menu31 ul li:hover ul li:hover a.drop {	background-color: #ccc;	  color: #E97C03;	background-image: none;}.menu31 ul li:hover ul li:hover ul {	display:block; 	position:absolute; 	left: 190px; 	top:-1px;	top: 1px; 	width:198px;}.menu31 ul li:hover ul li:hover ul li a {		color:#004B91;	border-right: #E97C03;font-weight: 400;}.menu31 ul li:hover ul li:hover ul li:hover a {		color:#E97C03;}.menu31 ul li a:hover {	color:#fff;}.menu31 ul li a:hover h1{	color:#fff;	background-color: transparent;}.menu31 ul li a:hover ul {	display:block; 	position:absolute; 	top:29px; 	left:0; 	background:#eee; 	margin-top:0; 	marg\in-top:1px;}.menu31 ul li a:hover ul li a {	display:block; 	background-color: #E97C03; 	color:#fff;	height:30px; 	hei\ght:20px; 	line-height:15px; 	padding:5px 10px; 	width:151px; 	w\idth:129px;}.menu31 ul li a:hover ul li a.drop {	background-color: #E97C03;}.menu31 ul li a:hover ul li a ul {	visibility:hidden; 	position:absolute; 	height:0; 	width:0;}.menu31 ul li a:hover ul li a:hover {	background-color: #000; 	color:#fff;}.menu31 ul li a:hover ul li a.drop:hover {	background:#888;	bottom: right no-repeat;}.menu31 ul li a:hover ul li a:hover ul {	visibility:visible; 	position:absolute; 	top:0; 	top:-1px; 	color:#000; 	left:150px;}.menu31 ul li:hover a h1:hover {background-position: left bottom;}.menu31 ul li:hover a h1 {background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_see_all_stores_but_2911.png);background-position: -10px -614px;background-position: left top;background-repeat: no-repeat;color: #FFFFFF;}.menu31 ul li a, .menu31 ul li a:visited {background-image: none;border: 0 none;display: block;height: 40px;line-height: 40px;margin-left: 0;padding-left: 10px;text-decoration: none;width: 190px;}.menu31 ul li ul {display: none;	margin-left: 5px;	margin-top: 8px;	border-left:2px solid #f4a949;	border-right:2px solid #f4a949;	border-bottom:2px solid #f4a949;	border-top:2px solid #f4a949;}.menu31 ul li:hover ul {	display:block; 	position:absolute; 	top:29px;	top: 36px;	margin-top: -1px; 	left:1px; 	width: 198px; 	height:auto;}.menu31 ul li ul li ul{display: none;	border-left:2px solid #f4a949;	border-right:2px solid #f4a949;	border-top:2px solid #f4a949;	border-bottom:2px solid #f4a949;background-color: #ecf4f8;margin-left: 8px;margin-top: 8px;}.hmRtBand .topCrv1, .hmRtBand .BotCrv {	width: 180px;	height: 7px;	background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_side_crvs.png);	background-position: left top;	background-repeat: no-repeat;} .hmRtBand .topCrv1 {	background-position: left -20px;}.hmLeftBand .topCrv1, .hmLeftBand .BotCrv {background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_side_crvs_2911.png);background-position: left top;background-repeat: no-repeat;height: 7px;width: 200px;}.hmLeftBand .inLines1 {border-left: 1px solid #F4A949;border-right: 1px solid #F4A949;	padding: 8px;}.hmRtBand .inLines1 {	border-left: 1px solid #5791c4;	border-right: 1px solid #5791c4;	padding: 8px;}.hmLeftBand .inLines1 {border-left: 1px solid #F4A949;border-right: 1px solid #F4A949;padding: 8px;	padding-top: 0;}.hmLeftBand .inLines1 {	border-left: 1px solid #f4a949;	border-right: 1px solid #f4a949;	padding: 8px;}.hmRtBand .inLines1 {	border-left: 1px solid #5791c4;	border-right: 1px solid #5791c4;	padding: 8px;}.hmLeftBand .inLines1 {border-left: 1px solid #F4A949;border-right: 1px solid #F4A949;padding: 8px;	padding-top: 0;}.inLeftBand1 {float: left;width: 200px;	margin-right: 10px;}.inLeftBand1 .topCrv1, .inLeftBand1 .BotCrv {background-image: url("http://images.indiaplaza.com/indiaplazaimages/a_side_crvs_2911.png");background-position: left top;background-repeat: no-repeat;height: 7px;width: 200px;}.inLeftBand1 .inLines1 {border-left: 1px solid #F4A949;border-right: 1px solid #F4A949;padding: 0 8px 8px;	min-height: 295px;}.inLeftBand1 .BotCrv {background-position: left -9px;margin-bottom: 0px;}.inLeftBand1 .links1 a, .inLeftBand1 .links1 a:visited {	line-height: 24px;	border-bottom: 1px dotted #545454;	display: block;		padding-left: 10px;}.inLeftBand1 .links1 a:hover {	text-decoration: none;	color: #F4A949;	background-color: #ffffff;}.inLeftBand2 .links2 a, .inLeftBand2 .links2 a:visited {	line-height: 24px;	border-bottom: 1px dotted #666;	display: block;	padding-left: 30px;}.inLeftBand2 .links2 a:hover {	text-decoration: none;	color: #F4A949;	background-color: #f7f7f7;}.inLeftBand1 .cattopCrv1 {background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_cat_top_crv.png);background-position: left top;background-repeat: no-repeat;height: 24px;width: 200px;}.leftBandTopIn1 {	background-position:left -614px;	background-repeat:no-repeat;	color:#FFFFFF;	height:28px;	line-height:28px;	margin:0;	padding:0 0 0 0px;	width:200px;	margin-left: -10px;}.leftBandTopIn1 h1 {	font-family:Arial,Helvetica,sans-serif;	font-size:16px;	font-weight:bold;	padding: 0;	margin: 0;	color: #fff;	padding-left: 5px;	text-decoration: none;	margin-left: -10px;}.leftBandTopIn1:hover {background-position: left bottom;}.leftBandTopIn1 {	background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_see_all_stores_but_2911.png);background-position: left -614px;	background-position: left top;background-repeat: no-repeat;color: #FFFFFF;height: 40px;line-height: 40px;margin: 0 0 0 -10px;padding: 0 0 0 0;width: 206px;}.menu31 li.last {	border-bottom:1px solid #F4A949; 	margin:0;}.bksnewbrowsePromoArea {background-image: url("http://images.indiaplaza.com/indiaplazaimages/mobile_repeat_sprite.png");background-position: left -386px;background-repeat: repeat-x;border-top: 1px solid #E6E6E6;clear: both;color: #000000;font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 9px;font-weight: 700;line-height: 21px;margin: 0;text-align: center;text-transform: uppercase;}.links1ul li fly {	background:url(http://images.indiaplaza.com/indiaplazaimages/arrow.gif) no-repeat right center;}.links1 ul li fly a {background:url(http://images.indiaplaza.com/indiaplazaimages/arrow.gif) no-repeat right center;}.outofstockNonBooks {float: right;margin: 30px 0 0;height: 39px;width: 182px;}.outofstockNonBooks a{ background-image: url(http://images.indiaplaza.com/indiaplazaimages/fdp_outofstock.png);   background-repeat: no-repeat;height: 39px;width: 211px;display: block;}.inLeftBand1 li ul li ul li a {border-bottom: none;}.variantErrorStyle {color: Red; margin-left: 10px; font-weight: normal;font-size:small;width: 150px;} .videoBorder {border: 5px solid red;}.videoBorderEmpty {border-color: white;}.deliveryPopUpStyle {background-color: white;border: 10px solid #999999;display: none;overflow: hidden;width: 300px;}.deliveryPopHead {background-color: #EEEEEE;  color: #808080;font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;padding: 10px;}.deliveryPopText {color: #666666;line-height: 15px;padding-left: 10px;}.deliveryPopClose {cursor: pointer; font-weight: bold; float: right;padding-right: 10px;color: black;font-size: 13px;padding-top: 8px;}.ImagPopUp2 {position: absolute;vertical-align: middle;margin: 0px;font-family: Tahoma, Geneva, Verdana;z-index: 999999;} .errMsg {background: none repeat scroll 0 0 #FCE7E7;border: 1px solid #BB0000;color: #BB0000;margin: 1px;padding: 5px;text-align: left;}#belowSpotnew{width: 964px;margin-left: auto;margin-right: auto;padding-bottom: 30px;width: 964px;}#belowSpotnewhome{width: 964px;margin-left: auto;margin-right: auto;margin-top: auto;padding-bottom: 30px;width: 964px;}#shipaddrerrmsg {background: none repeat scroll 0 0 #FCE7E7;border: 1px solid #BB0000;border-radius: 5px;-moz-border-radius: 5px;width: 260px;color: #BB0000;margin: 1px;padding: 5px;text-align: left;padding-left: 20px;width: 320px;}#shipaddrerrmsg ul li {list-style: none outside none;}#shipaddrerrmsggrn {background: none repeat scroll 0 0 #ccffcc;border: 1px solid #669966;color: green;margin: 1px;padding: 5px;text-align: left;padding-left: 20px;border-radius: 5px;-moz-border-radius: 5px;width: 320px;}#shipaddrerrmsggrn ul li {list-style: none outside none;}.DateQuestPopUp{   background-color: #AAAAAA;font-variant: small-caps;font-family: "lucida grande",tahoma,verdana,arial,sans-serif;font-size: 9px;padding: 0 1px;color: #FFFFFF;cursor: pointer;}.DateQuestPopUp a{color: #FFFFFF;background-color: #AAAAAA;  font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: 700;padding: 0 1px;}.googleplus {width: 88px;float: right;position: absolute;right: -15px;}.txtOutStockemailid{width: 200px;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;}.butOutStocksubmit{width: 60px;	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;		cursor:pointer;	background-color: #1C458A;	color:White;}.butOutStockclose{	font-family: Arial, Helvetica, sans-serif;	font-size: 14px;	font-weight:bold;	float: right;	padding-right: 10px;	text-decoration:none;	color: black;}.butOutStockclose a {text-decoration:none;cursor:pointer;color: black; }.outStockerrmsg {background: none repeat scroll 0 0 #FCE7E7;border: 1px solid #BB0000;color: #BB0000;margin: 10px;padding: 5px;text-align: center;font-size: 11px;line-height: 12px;}.outStockPopStyle{ height: 120px; position: absolute;  left: 600px; top: 610px;  background-color: white; border: 8px solid #999999; display: none; overflow: hidden;}.outStockDefault{line-height: 22px; margin: 20px 4px 0; text-align: center;}.outStockHead{float: left; margin: 2px 2px;} .fdpaccessmrp{font-family: "Segoe UI",tahoma,verdana,arial,sans-serif;font-size: 12px;color: #545454;margin: 4px 0;text-decoration: line-through;}.fdpaccessPrice{font-family: "Segoe UI",tahoma,verdana,arial,sans-serif;font-size: 12px;color: #CC0000;margin: 4px 0;}.fdpaccessName {font-family: "Segoe UI",tahoma,verdana,arial,sans-serif;font-size: 12px;color: #003399;padding-top: 10px;text-decoration: none;}.fdpaccessName a {font-family: "Segoe UI",tahoma,verdana,arial,sans-serif;font-size: 12px;color: #003399;padding-top: 10px;text-decoration: none;}.fdpaccessName:hover {font-family: "Segoe UI",tahoma,verdana,arial,sans-serif;font-size: 12px;color: #f57124;padding-top: 10px;text-decoration: none;}.fdpaccessName a:hover {font-family: "Segoe UI",tahoma,verdana,arial,sans-serif;font-size: 12px;color: #f57124;padding-top: 10px;text-decoration: underline;}#leftFilterhomeArea {float: left;font-size: 12px;margin-left: 2px;margin-right: 4px;width: 204px;}
+#leftFilterhomeArea .filterhomeHdr{background-color: #4E6EA4;   height: 35px;line-height: 35px;font-family: "Segoe UI",arial,helvetica,clean,sans-serif;font-size: 13px;font-weight: 700;color: #FFFFFF;padding-left: 10px;border-radius: 4px 4px 0 0; }#leftFilterhomeArea .filterhomeMain{background-color: #f9f9f9;border-left: 1px solid #ecebeb;border-right: 1px solid #ecebeb;padding: 10px;min-height: 275px;}#leftFilterhomeArea .filterhomeBottom{height: 10px;margin-top: -8px;border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;border-bottom: 1px solid #EEEEEE;border-radius: 0 0 4px 4px; }#leftFilterhomeArea .subHdr{font-weight: 700;padding-bottom: 10px;overflow: hidden;}#leftFilterhomeArea .subHdr a, #leftFilterhomeArea .subHdr a:visited{color: #666;display: block;}#leftFilterhomeArea .lefthomeFilters{font-size: 13px; font-family:"lucida grande" ,tahoma,verdana,arial,sans-serif; color: #666;line-height: 18px;}#leftFilterhomeArea input{font-size: 11px;vertical-align: middle;}#leftFilterhomeArea .sepLine{height: 8px;border-bottom: 1px solid #ccc;margin-bottom: 8px;} #leftFilterhomeArea .subHdr a:hover, #filtersArea .filters a:hover{text-decoration: none;color: #003399;}.subCatLefthomeNav li a{color: #003399;display: block;font: 12px/1.231 "Segoe UI",arial,helvetica,clean,sans-serif;font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}.subCatLefthomeNav li a:visited{color: #003399;display: block;font: 12px/1.231 "Segoe UI",arial,helvetica,clean,sans-serif;font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}.subCatLefthomeNav li a:visited:hover{color: #BD0800;display: block;font: 12px/1.231 "Segoe UI",arial,helvetica,clean,sans-serif;font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}.subCatLefthomeNav li a:hover{color: #BD0800;display: block;font: 12px/1.231 "Segoe UI",arial,helvetica,clean,sans-serif;font-size: inherit;border-bottom: 1px solid #EEEEEE;line-height: 26px; display: block;list-style-type: none;text-decoration: none;padding-left: 10px;}.subCatLefthomeNav li:last-child {border-bottom: none;}  .subCatLefthomeNav li:last-child a {border-bottom: none;}.subCatLefthomeNav li:last-child a:hover {border-bottom: none;}#leftFilterArea .active{font-family: "Segoe UI",arial,helvetica,clean,sans-serif;font-size: 12px;font-weight: 700;color:white; text-decoration:none;border-left: 4px solid #3473B1;background-color: #3473B1;}.boldFont h1{color: #000000;font-weight: 700;font-family: Arial,Helvetica,sans-serif;font-size: 11px;line-height: 26px;display:inline;}.pricesorting {margin-left: 565px;padding-top: 5px;position: absolute;white-space: nowrap;}.subCatLefthomeNav ul a{color: #003399;height:275px;}
+
+/* ip home */
+/* ip header */
+body {background: #fff;margin: 0px;padding: 0px;font-family: Segoe UI, Lucida Grande, UnDotum, Arial, Helvetica, sans-serif;}
+.header {background: white url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) repeat-x 0 -30px;height: 139px;}
+.menu_box {
+	width: 200px;
+	position: absolute;
+	top: 127px;
+	margin-left: 0px;
+	left: 2px;
+}
+.header .header-cont {width: 998px;margin: 0 auto;overflow: hidden;height:139px;}
+.header-left {float: left;width:222px;margin-left: 3px;}
+.header .logo{padding:5px 0 6px 30px;text-align:center;}
+.header .logo a {width: 179px;height: 64px;display: block;background-image: url(http://images.indiaplaza.com/indiaplazaimages/logo.png);background-repeat: no-repeat;background-position: 0px 0px;}
+.header .axislogo{padding:5px 0 6px 30px;text-align:center;}
+.header .axislogo a {width: 215px;height: 64px;display: block;background-image: url(http://images.indiaplaza.com/indiaplazaimages/axisbank_logo.jpg);background-repeat: no-repeat;background-position: 0px 0px;}
+.nav-tabs-outer{font-size: 11px;color: #142C45;padding-left: 4px;position: relative;top: 1px;right:20px;}
+.header-nav-outer {float: right;width: 766px;height:139px;}
+.header-top-nav {height: 18px;overflow: hidden;font-size: 11px;color: #D8D7D7;font-weight: normal;}
+.header-nav-tab {float: left;white-space: nowrap;text-align: center;display: block;padding: 3px 0 3px 0;margin-top: 1px;}
+.store-home-tab {position: relative;top: -18px;left: 1px;font-size: 12px;width: 220px;text-align: center;height: 20px;clear: both;}
+.store-home-tab span a{color:#142C45;text-decoration:none;}
+.store-home-tab span a:hover{color:#F68028;text-decoration:underline;}
+span.dnm-tab a, span.product-tab a, span.travel-tab a , span.mobile-recharge-tab a, span.refer-tab a{padding: 1px 11px 0px 23px;display: block;color: #142C45;}
+span.product-tab a {background-position: -9px -396px; padding-left: 25px;}
+span.dnm-tab a { background-position: -12px -370px;padding-left: 11px;}
+span.travel-tab a, span.refer-tab a, span.fathersDay-tab a {background-position: -1px -342px;padding-left: 11px;border-right:0px solid #004b62;-moz-box-shadow: 0px 0px 0px #037fa5;-webkit-box-shadow: 0px 0px 0px #037fa5;box-shadow: 0px 0px 0px #037fa5;}
+span.mobile-recharge-tab a{padding-left: 28px;}	
+span.refer-tab a{padding-left: 35px;}
+.header-nav-tab a{color: #142C45;text-decoration:none;}
+.header-nav-tab a:hover{text-decoration:underline;color:#F68028;}
+.nav-tab-active {background: #024a60;-moz-box-shadow: 0 2px 6px #022732 inset;-webkit-box-shadow: 0 2px 6px #022732 inset;box-shadow: 0 2px 6px #022732 inset;}
+.header-nav-right{overflow:hidden;float:right;}
+span.close {font-size: 10px;color: #fff;padding: 1px 0 1px 16px;cursor: pointer;}
+.search-outer{height: 90px;font-size: 12px;color: #EBEBEB;overflow: hidden;padding-top: 8px;padding-right: 0;padding-bottom: 0px;padding-left: 4px;}
+#containerPage {margin: 0px auto; width: 1000px;min-height:1000px;height:auto;}
+#navigationUtility {float: right;clear: both;margin-top: -10px;color: #FFF;font-size: 12px;top: 9px;right: 193px;text-decoration: none;}
+#navigationUtility a{padding-bottom: 0px;padding-left: 0.5em;padding-right: 0.5em;float: left;color:#666;border-right: #fff 1px solid;text-decoration: none;padding-top: 0px;font-size: 11px;}
+#navigationUtility a:hover {text-decoration: underline; color:#000;}
+#navigationUtility a:focus {text-decoration: underline;}
+#navigationUtility ul,#socialMediaLinks ul {padding-bottom: 0px; list-style-type: none; margin: 0px; padding-left: 0px; padding-right: 0px; list-style-image: none; padding-top: 0px;}
+#navigationUtility li, #socialMediaLinks li {display: inline;}
+#userGreet {padding-right: 6px; color: #666; font-size: 12px; border-right: #fff 1px solid}
+/*#socialMediaLinks {margin-top: -26px;height: 20px;float: left;margin-left: 50em;}*/
+#socialMediaLinks {float:right;clear:both;margin-top:12px;height: 20px;top: 43px;right: 193px}
+#socialMediaLinks a {margin: 0px 10px 0px 0px; float: left}
+#cart123{margin-top: 12px;margin-right: 30px;float: right;height: 20px;top: 41px;right: 357px;}
+#cart123 .mybagBlk{color: black;float: left;position: relative;font-size: 12px;left: 20px;height: 25px;width: auto;background: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) 191px 729px;padding-left: 25px;padding-top: 2px;}
+#cart123 .mybagBlk a{font-size:12px;cursor:pointer;}
+#cart123 .mybagBlk span{color:#cc4c50;font-family:inherit;font-size:10px}
+#mainContainer {width: 1000px; float: left; }
+#columnMain {padding-bottom: 0px;padding-left: 0px;width: 745px;padding-right: 21px;float: right;padding-top: 5px;left: 0px;top:0;margin-top: -72px;position: relative;}
+/*#columnMain {padding-bottom: 0px;padding-left: 0px;width: 745px;padding-right: 21px;float: right;padding-top: 5px;left: 408px;top: 68px;position: absolute;}*/
+#searchStoreContainer {padding-bottom: 6px;padding-left: 0px;width: 764px;padding-right: 0px;float: left;color: #666;font-size: 12px;padding-top: 6px;border-radius: 5px;background-color: #008000;left: 327px;top: 24px;}
+#selectAllStoresContainer {z-index: 100;padding-bottom: 5px;margin: 0px 0px 0px 8px;padding-left: 8px;width: 215px;padding-right: 27px;background: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) 220px -327px #fff no-repeat;float: left;height: 17px;cursor: pointer;padding-top: 5px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;border-top-right-radius: 0.5em;border-bottom-right-radius: 0.5em;}
+.opened#selectAllStoresContainer {background-position: right -27px; border-bottom-left-radius: 0; position:relative;}
+#selectAllStoresContainer ul {border-bottom: #d8d8d8 1px solid; position:relative; border-bottom: #d8d8d8 1px solid; padding-bottom: 10px; padding-left: 8px; width: 230px; padding-right: 10px; display: none; background: #fff; height: 310px; overflow: auto; border-top: medium none;border-right: #d8d8d8 1px solid; padding-top: 10px; left: 0px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; margin-top:7px; margin-left:-9px;}
+#selectAllStoresContainer li {padding-bottom: 0.2em; padding-left: 0px; padding-right: 0px; padding-top: 0.2em;}
+#selectAllStoresContainer li:hover {color: #142C45; font-weight:bold;}
+#selectAllStoresContainer li.menuover {color: #ff6000}
+#selectAllStoresContainer select {border-bottom: medium none; border-bottom: medium none; padding-bottom: 0px; padding-left: 0px; width: 278px; padding-right: 0px; background: none transparent scroll repeat 0% 0%; height: 27px; border-top: medium none; cursor: pointer; border-right: medium none; padding-top: 4px; -webkit-appearance: none;}
+#selectAllStoresContainer option {min-width: 250px;}
+#searchContainer {padding-bottom: 0px;padding-left: 0px;width: 490px;padding-right: 7px;float: right;padding-top: 0px;height: 25px;}
+#searchFormDesign {padding-bottom: 0px;margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;margin: 0px;}
+#searchFormDesign label {display: none; cursor: pointer;}
+#txtSearch {float: left;border-bottom: #fff 1px solid;border-left: #fff 1px solid;padding:5px 5px 5px 5px;margin: 0px;width: 440px;color: #656565;border-top: #fff 1px solid;border-right: #fff 1px solid;border-top-left-radius: 5px;border-bottom-left-radius: 5px;border-bottom: 1px solid white;border-left: 1px solid white;margin: 0px;border-top: 1px solid white;border-right: 1px solid white;line-height: 16px;}
+#txtSearch:focus {border-bottom-color: #fff; border-top-color: #fff; border-right-color: #fff; border-bottom-color: #fff;}
+#txtSearch:hover {border-bottom-color: #fff; border-top-color: #fff; border-right-color: #fff; border-bottom-color: #fff;}
+#searchFormDesign {padding: 0px;margin: 0px;}
+#btnSearch {background: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) 541px -292px;float: right;margin: 0px 0px 0px -3px;width: 28px;height: 20px;padding:3px 4px 3px 4px;border-bottom-right-radius: 5px;border-top-right-radius: 5px;border: 1px solid white;cursor:default;}
+#btnSearch:hover {cursor:pointer;}
+/*.btnSearch{border-bottom-right-radius: 5px;border-top-right-radius: 5px;-moz-box-shadow:2px 2px 0 rgba(0, 0, 0, 0.7);-webkit-box-shadow:2px 2px 0 rgba(0, 0, 0, 0.7);box-shadow:2px 2px 0 rgba(0, 0, 0, 0.7);background: -moz-linear-gradient(19% 100% 90deg,#16314B, #16314B, #16314B 100%);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#12283F), to(#12283F), color-stop(.2,#12283F));color:#E6F2EB;float:left;font-family:arial,helvetica,sans-serif;font-size:15px;font-weight:bold;padding: 3px 5px 2px 5px;text-shadow:-1px -1px 1px #4F5B54;margin: 0px 0px 0px -3px;float:right;}
+.btnSearch:hover{cursor:pointer;}*/
+div#mainCategory {padding-bottom: 0px; margin: 5px 5px 4px 4px; padding-left: 0px; width: 206px; padding-right: 0px; padding-top: 0px; border-radius: 4px 4px 0 0}
+div#mainCategory ul ul {text-shadow: 0 0 0}
+div#mainCategory:hover {background-image: none; border-radius: 4px 4px 0 0}
+p#mainCategory:focus {background-image: none; border-radius: 4px 4px 0 0;}
+#mainCategory span {padding-bottom: 6px; padding-left: 28px; width: 178px; padding-right: 0px; display: block; background: url(http://images.indiaplaza.com/indiaplazaimages/bg-mainCategory-bullet.png) no-repeat 9.5em center; padding-top: 5px}
+div#mainCategory span {text-align: center;padding-bottom: 1px;padding-left: 0px;width: 205px;padding-right: 0px;background: none transparent scroll repeat 0% 0%;font-size: 18px;padding-top: 5px;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+div#mainCategory ul ul span {text-align: left; padding-bottom: 0px; padding-left: 0px; width: 172px; padding-right: 0px; background: none transparent scroll repeat 0% 0%; font-size: 12px; padding-top: 0px}
+
+.hmMainArea {padding-bottom: 0px; padding-left: 5px; width: 980px; padding-right: 0px; float: right; padding-top: 0px;}
+.hmLeftBand {width: 205px; float: left}
+.hmMainArea a{color: #0F2D5E;}
+.hmMainArea a:hover{color:#fff; text-decoration:none;}
+.hmRtBand {padding-bottom: 0px; padding-left: 0px; width: 180px; padding-right: 0px; float: right; padding-top: 43px;}
+.hmRtBand .topCrv {background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_side_crvs.png); width: 180px; background-repeat: no-repeat; background-position: left top; height: 7px}
+.hmRtBand .BotCrv {background-image: url(http://images.indiaplaza.com/indiaplazaimages/a_side_crvs.png); width: 180px; background-repeat: no-repeat; background-position: left top; height: 7px;}
+.hmLeftBand .BotCrv {background-position: left -9px; margin-bottom: 12px}
+.hmRtBand .topCrv {background-position: left -20px;}
+.hmRtBand .BotCrv {background-position: left -30px; margin-bottom: 12px;}
+.hmLeftBand .inLines {border-bottom: #f4a949 1px solid; padding-bottom: 8px; padding-left: 8px; padding-right: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-right: #f4a949 1px solid; padding-top: 0px;}
+.hmRtBand .inLines {border-bottom: #d2d2d2 1px solid; padding-bottom: 8px; padding-left: 8px; padding-right: 8px; border-right: #d2d2d2 1px solid; padding-top: 8px;}
+.hmLeftBand h1 {color: #ec8103; font-size: 20px; font-weight: normal;}
+.hmLeftBand h3 {color:#000;font-size: 12px;font-weight: normal;}
+.hmRtBand h3 {color: #ec8103; font-size: 20px; font-weight: normal;}
+.hmLeftBand h3 {font-size: 16px;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
+.hmRtBand h3 {font-size: 13px; font-weight: bold;}
+.hmLeftBand .allCat  a  {line-height: 22px; display: block; font-family: Arial, Helvetica, sans-serif; color: #004b91; margin-left: 8px; font-size: 12px; font-weight: bold; text-decoration: none;}
+.hmLeftBand .allCat a:visited {line-height: 22px; display: block; font-family: Arial, Helvetica, sans-serif; color: #004b91; margin-left: 8px; font-size: 12px; font-weight: bold; text-decoration: none;}
+.hmLeftBand .links  a  {line-height: 22px; display: block; font-family: Arial, Helvetica, sans-serif; color: #004b91; margin-left: 8px; font-size: 12px; font-weight: bold; text-decoration: none;}
+.hmLeftBand .links a:visited {line-height: 22px; display: block; font-family: Arial, Helvetica, sans-serif; color: #004b91; margin-left: 8px; font-size: 12px; font-weight: bold; text-decoration: none;}
+.hmLeftBand .allCat a:hover {color: #e27911;}
+.hmLeftBand .links  a  {line-height: 18px; font-size: 11px;}
+
+/* left categories */
+.left-categories-cont{margin:0 5px;-moz-border-radius:0px 0px 5px 5px;-webkit-border-radius:0px 0px 5px 5px;border-radius:0px 0px 5px 5px;padding:0 0 7px 0;border: 1px solid #a9d0ff;border-top: none;background-color:#003C3C;background-repeat: repeat-x;background-position: bottom;}	
+.left-categories-cont-inactive{display:none;position:absolute;width:232px;z-index:1200;}	
+.left-categories-cont-inactive2{display:block;position:absolute;width:232px;z-index:1200;}
+.left-categories-left-shadow{-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0;}
+.left-categories-head {background-color: #142C45;font-size: 15px;color: white;font-weight: bold;white-space: nowrap;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;border: 1px solid #A9D0FF;border-bottom: 0px;padding-top: 4;padding-right: 0;padding-bottom: 0px;padding-left: 4px;margin-left: -3px;border-top-left-radius: 0.5em;border-top-right-radius: 0.5em;border-bottom-right-radius: 0.5em;border-bottom-left-radius: 0.5em;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;height: 40px;}
+.left-categories-head span{display: block;padding: 5px 0 7px 0;-moz-border-radius: 0 5px 0 0;-webkit-border-radius: 0 5px 0 0;border-radius: 0 5px 0 0;}
+.left-categories-head-down {background: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) 140px -229.5px no-repeat;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;letter-spacing: 1px;font-size: 16px;margin-right: 6px;cursor: pointer;margin-left: 35px;margin-top: 3px;}	
+.left-categories-head-up{background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) 140px -261.5px no-repeat;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;letter-spacing: 1px;font-size: 16px;margin-right: 6px;cursor: pointer;margin-left: 35px;margin-top: 3px;}	
+ul.left-categories {background:#E7FAFA;list-style: none;color: #2f2f2f;margin: 0px;padding: 0px;font-weight:bold;}
+ul.left-categories li{margin: 0px;position:relative;text-shadow:0px 1px #fff;}
+ul.left-categories li a {list-style: none;font-size: 12px;color: #2F2F2F;margin: 0px;padding: 3px 19px 5px 9px;display: block;border: 1px solid #E5F0FD;border-bottom: 0px solid #C5D7EE;width: 190px;}
+ul.left-categories li a:hover{color:#000040;}
+ul.left-categories li a.inactive{background:none !important;color:#9a9c99;border:0px !important;cursor:default;}
+/* The outermost container of the Menu Bar, a fixed width box with no margin or padding */
+ul.MenuBarVertical{margin: 0;padding: 0;list-style-type: none;font-size: 100%;cursor: default;}
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+ul.MenuBarActive{z-index: 1000;}
+/* Menu item containers, position children relative to this container and are same fixed width as parent */
+ul.MenuBarVertical li{margin: 0;padding: 0;list-style-type: none;font-size: 100%;position: relative;text-align: left;cursor: pointer;}
+/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
+ul.MenuBarVertical ul{margin: 0 0 0 200px;padding: 0;list-style-type: none;font-size:12px;position:absolute;z-index: 10;cursor: default;left: -1000em;top: 0;display:none;}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
+ul.MenuBarVertical ul.MenuBarSubmenuVisible{left: 0;background:#fff;border:1px solid #576f82;border-bottom:5px solid #576f82;-moz-border-radius:0 5px 5px 5px;-webkit-border-radius:0 5px 5px 5px;border-radius:0 5px 5px 5px;width: 221px;display:block;}
+/* Menu item containers are same fixed width as parent */
+ul.MenuBarVertical ul li{width: 221px;}
+/*******************************************************************************
+
+ DESIGN INFORMATION: describes color scheme, borders, fonts
+
+ *******************************************************************************/
+/* Outermost menu container has borders on all sides */
+ul.MenuBarVertical{border: 0px solid #CCC;}
+/* Submenu containers have borders on all sides */
+ul.MenuBarVertical ul{border: 1px solid #CCC;}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarVertical a{display: block;cursor: pointer;padding: 0.5em 0.75em;color: #333;text-decoration: none;}
+ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover, ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus{background: #fff url(http://images.indiaplaza.com/ipimages/left-categories-hover-bor-bottom.gif) repeat-x bottom !important;color:#000040;border-top:1px solid #576f82;border-left:1px solid #576f82;border-bottom:0px solid #576f82;border-right:0px !important;width:172px;position:relative;z-index:20}
+/* HACK FOR IE: to make sure the sub menus show above form controls, we underlay each submenu with an iframe */
+ul.MenuBarVertical iframe{position: absolute;z-index: 5;}
+ul.MenuBarSubmenuVisible li{border-bottom:0px !important;background:none !important;}
+ul.MenuBarSubmenuVisible li a{background: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png)no-repeat 12px -179px !important;font-size:12px;font-weight:normal !important;color:#212121 !important;border:0px !important;padding: 3px 0px 3px 24px; line-height:14px !important;}	
+ul.MenuBarSubmenuVisible li a:hover{background:#f0f0f0 url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) no-repeat 12px -179px !important;border:0px !important;width:197px !important;font-weight:bold !important;line-height:14px !important;}
+ul.MenuBarSubmenuVisible a{font-size:12px;font-weight:normal !important;color:#212121 !important;border:0px !important;padding: 3px 0px 3px 24px !important;}	
+ul.MenuBarSubmenuVisible a:hover{background:#f0f0f0 !important;border:0px !important;width:197px !important;}
+ul.MenuBarVertical a.MenuBarItemSubmenu {background-image: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png);background-repeat: no-repeat;background-position: 200px -514px;}
+
+/* ip home page content */
+input.dnm-field:focus{color:#000!important;}
+.page-main-cont{width:998px;padding:0 0 9px 0;}
+.home-deal-cont{overflow:hidden;width:998px;padding:0 0 5px 0;}
+.cont-right{width:763px;float:right;margin:0 0 0 3px;padding-top:9px;}
+.main-banner{margin:0 0 10px 0px;width:760px;}
+.home-deals-outer{padding:0 0 7px 0;}
+.otherpopular-deals,.wellness-deals,.popular-deals,.getaway-deals{margin-top:11px;}
+.home-deals-heading-outer{border-bottom:3px solid #142C45;padding-bottom:2px;margin-top:11px;}
+.home-deals-heading{height:30px;display:block;overflow:hidden;background:#eaeaea;-moz-border-radius:6px 6px 0 0;-webkit-border-radius:6px 6px 0 0;border-radius:6px 6px 0 0;}
+.home-similar-deals-head h1{margin:0;font-size:15px;}
+.home-similar-deals-head{
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	padding: 6px 0 0 39px;
+	text-shadow: 0 1px #fff;
+	color: #009933;
+}
+.view-deal-link{color:#0f2d5e;font-size:11px;font-weight:normal;float:right;padding:9px 8px 0 0;text-shadow:0 0 #fff!important;width:50%;text-align:right;}
+.view-deal-link1 {color: #0F2D5E;float: right;font-size: 11px;font-weight: normal;height: 100%;padding: 9px 8px 0 0;text-align: right;text-shadow: 0 0 #FFFFFF !important;width: 10%;}
+.view-deal-link1:hover ,.view-deal-link1:hover a{background-color:#E47911; color:#FFF;font-weight:bold;text-decoration:none;}
+.view-deal-link2 {color: #0F2D5E;float: right; font-size: 11px;font-weight: normal;height: 100%;padding: 11px 5px 0 0;text-align: right;text-shadow: 0 0 white !important;width: 35%;}
+.view-deal-link2:hover ,.view-deal-link2:hover a{background-color:#E47911;color:White;font-weight:bold;text-decoration:none;}
+.view-deal-link3 {color: #0F2D5E;float: right; font-size: 11px;font-weight: normal;height: 100%;padding: 11px 5px 0 1px;text-align: right;text-shadow: 0 0 white !important;width: 10%;}
+.view-deal-link3:hover ,.view-deal-link3:hover a{background-color:#E47911;color:White;font-weight:bold;text-decoration:none;}
+.home-deals-heading span{font-size:15px;font-weight:bold;float:left;padding:6px 0 0 39px;text-shadow:0 1px #fff;}
+.home-deals-cont-outer{overflow:hidden;padding-left:6px;_width:709px;}
+.home-proddeals-cont-outer{overflow:hidden;padding:8px;_width:709px;}
+.home-deals-cont{float:left;padding:7px 10px 11px 11px;font-size:12px;width:164px;}
+.home-proddeals-cont:hover{box-shadow:0 0 8px #888;}
+.home-deal-title{color:#0F2D5E;}
+.home-proddeals-cont:hover .home-deal-title{text-decoration:underline;}
+.home-deals-cont-nb{background:none!important;}
+.home-proddeals-cont{padding:7px 10px 11px 9px;font-size:12px;width:166px;border-left:1px hidden #8c8c8c;}
+.home-proddeals-subcatname-outer{margin-left:10px; clear:both;overflow:hidden;background:#fbfbfb;}
+.home-proddeals-subcatname{padding-top:5px;padding-bottom:5px;border-left:1px dotted #c5c5c5;border-top:1px dotted #c5c5c5;border-bottom:1px dotted #c5c5c5; text-align:center;font-size:11px;padding:5px 0;float:left; /*background-color:#DDF*/ background-color:#DBE3E5; color:#000; cursor:pointer; font-weight:500 !important;}
+.home-proddeals-subcatname:hover,.home-proddeals-subcatname:hover a{background-color:#BBCACE;color: #0F2D5E;font-weight:700 !important;text-decoration:none; }
+.home-proddeals-cont-nb{border-left:0!important;}
+.home-deal-title a{font-weight:bold;padding:0 0 3px 5px;color:#292a2a;}
+.home-deal-img-cont{border:1px solid #d1cdcd;padding:1px;width:164px;height:106px;}
+.home-product-img-cont{padding:1px;width:166px;height:194px;}
+.home-product-hover{height:192px!important;}
+.home-deal-price-outer{overflow:hidden;margin:3px 0;padding:0 2px;font-weight:bold;}
+.home-deal-price-outer .price {font-size: 1em;font-family: Arial,Verdana,Helvetica,sans-serif;letter-spacing: 0.025em;line-height: 1.286em;color: #A71818;font-weight: 800;margin-left: 20px;margin-top: 2px;text-align: left;float:left;}
+.home-deal-price-outer .price span{font-weight:normal;font-size:11px;color:#757575;text-decoration:line-through;margin-right:10px;}
+.home-deal-price-outer .discount{float:right;color:#A71818;}
+.home-deal-location{font-size:10px;padding:1px 0 2px 10px;height:25px;overflow:hidden;}
+.home-product-subcatname-outer{margin-left:10px; clear:both;overflow:hidden;background:#fbfbfb;}
+.home-product-browse-img-cont{padding:1px;width:166px;height:170px;}
+.home-browse-bot-line{-moz-border-radius:16px;-webkit-border-radius:16px;border-radius:16px;border:2px solid #fff;height: 0.8em;background-color: #DBE3E5;border: none;margin-right: 10px;}
+.cont-left{width:227px;float:left;}
+.left-product-banners{margin-top:15px;padding:0 3px;}
+.right-product-banners-heading{font-size:14px;color:#fff;font-weight:bold;background:#009cc9;padding:4px 8px;}
+.right-banners-outer{padding:8px 0 0 0;border:1px solid #e2e4e6;border-top:0;}
+.right-banners-outer p{margin:0 3px 8px 3px;padding:0;}
+.banners-end{color:#fff;background:#009cc9;text-align:center;font-size:12px;padding:2px 0;}
+.banners-end a{color:#fff;text-decoration:underline;}
+.home-image-hover{width:164px;height:106px;position:absolute;z-index:1;box-shadow:1px 2px 3px 0 #ccc;display:none;}
+.home-image-hover a{width:164px;height:106px;display:block;text-decoration:none;color:#fff;font-size:11px;}
+.product_title{display:block;height:50px;overflow:hidden;margin-bottom:9px;padding:5px;}
+.home_view_deal{-moz-border-radius:16px;-webkit-border-radius:16px;border-radius:16px;width:85px;border:2px solid #fff;padding:2px 10px 3px 0;margin:0 auto;display:block;text-align:center;font-weight:bold;}
+.buy-sd-cash{margin-bottom:10px; }
+.homeBannerDeals-First{margin-top: 380px; }
+.homeBannerDeals{margin-top:15px; }
+.homeBannerDeals-heading-outer{border-bottom:3px solid #008000;padding-bottom:2px;width:214px;}
+.homeBannerDeals-heading {height:30px;display:block;overflow:hidden;background:#008000;border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;}
+.homeBannerDeals-heading:hover{color:#A71818;}
+.homeBannerDeals-heading .homeBannerDeals-head-text{font-size:15px;font-weight:bold;float:left;padding:6px 0 0 19px;text-shadow:0 1px #fff;color:#292A2A;}
+.homeBannerDeals-heading .homeBannerDeals-head-text:hover {color:#292A2A;}
+.homeBannerDeals-cont-outer{border-left:2px solid #eaeaea;border-right:2px solid #eaeaea;border-bottom:4px solid #eaeaea;font-size:12px;padding:5px 15px;width:180px;}
+.homeBannerDeals-img-cont{padding:1px;width:106px;height:123px;margin:0 auto 2px auto;}
+.recommendcontainer{width:1000px;margin:auto; height:360px;font-family: Segoe UI, Lucida Grande, UnDotum, Arial, Helvetica, sans-serif; border-color:#EAEAEA; border-style:solid; border-width:thin; border-top-left-radius:0.5em; border-top-right-radius:0.5em;}
+.iphome-home-deals-heading-outer_flip {padding-bottom: 2px;}
+.iphome-home-deals-heading_flip {background: none repeat scroll 0 0 #EAEAEA;border-radius: 6px 6px 0 0;display: block;height: 30px;overflow: hidden;}
+.iphome-home-deals-heading_flip a{color: #0F2D5E;text-decoration:none;}
+.iphome-home-similar-deals-head_flip {color: #292A2A;float: left;font-size: 15px !important;font-weight: bold;padding: 6px 0 0 39px;text-decoration: none;text-shadow: 0 0 #FFFFFF;}
+.home-deals-heading_flip_mid .home-similar-deals-head_flip_mid { font-size: 15px !important; font-weight: bold; float: left; padding: 6px 0 0 39px;text-shadow: 0 0px white;color: #292A2A;text-decoration: none;}
+.home-deals-heading_flip .home-similar-deals-head_flip { font-size: 15px !important;font-weight: bold;float: left;padding: 6px 0 0 24px;text-shadow: 0 0px white; color: #292A2A;text-decoration: none;}
+.view-deal-link1_iphome_flip {color: #0F2D5E;float: right;font-size: 12px !important;font-weight: normal;height: 100%;padding: 9px 8px 0 15px;text-align: right;text-shadow: 0 0 #FFFFFF !important;width: auto;}
+.view-deal-link1_iphome_flip a{color: #0F2D5E;text-decoration:none;}
+.view-deal-link1_iphome_flip:hover,.view-deal-link1_iphome_flip:hover a{background-color:#E47911; color:#FFF;font-weight:bold;}
+.dealsBlk {float: left;width: 980px;}
+.slido { width: 956px; margin-top: 20px; height: 370px; font-family: Segoe UI, Lucida Grande, UnDotum, Arial, Helvetica, sans-serif;border-color: #EAEAEA;border-style: solid;border-width: thin;border-top-left-radius: 0.5em;border-top-right-radius: 0.5em;float: right;}
+.home-deals-heading-outer_flip {  padding-bottom: 2px; }
+.home-deals-heading_flip {height: 30px;display: block; overflow: hidden;background: #eaeaea;-moz-border-radius: 6px 6px 0 0;-webkit-border-radius: 6px 6px 0 0;border-radius: 6px 6px 0 0; }
+.home-deals-heading_flip .home-similar-deals-head_flip {font-size: 15px !important;font-weight: bold;float: left; padding: 6px 0 0 24px; text-shadow: 0 0px #fff;color: #292A2A; text-decoration: none;}
+.home-deals-heading-outer_flip .bgWhite,.home-deals-heading-outer_flip_mid_fdp .bgWhite{background-color:#fff;}
+.slider_small_fdp { width: 220px; margin: auto; height: 360px;font-family: Segoe UI, Lucida Grande, UnDotum, Arial, Helvetica, sans-serif;float: left;text-align: left;color: #333;font-size: 13px;}
+.slider_mid_fdp { width: 720px; margin: auto; height: 340px;font-family: Segoe UI, Lucida Grande, UnDotum, Arial, Helvetica, sans-serif;float: right;}
+.home-deals-heading_flip { height: 30px; display: block;overflow: hidden; background: #EAEAEA;-moz-border-radius: 6px 6px 0 0;-webkit-border-radius: 6px 6px 0 0;border-radius: 6px 6px 0 0;}
+.iphome-jcarousel-skin-tango .jcarousel-container-horizontal{height: 300px;width: 690px;margin-top:10px;}
+.iphome-jcarousel-skin-tango .jcarousel-container-vertical{height:245px;padding:40px 20px;width:75px}
+.iphome-jcarousel-skin-tango .jcarousel-clip-horizontal{height: 300px;width: 690px;}
+.iphome-jcarousel-skin-tango .jcarousel-clip-vertical{height:245px;width:75px}
+.iphome-jcarousel-skin-tango .jcarousel-item{}
+.iphome-jcarousel-skin-tango .jcarousel-item-horizontal{margin-left:0;margin:1px 9px 10px 7px;}
+.iphome-jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal{margin-left:10px;margin-right:0}
+.iphome-jcarousel-skin-tango .jcarousel-item-vertical{margin-bottom:10px}
+.iphome-jcarousel-skin-tango .jcarousel-item-placeholder{background:none repeat scroll 0 0 #FFF;color:#000}
+.iphome-jcarousel-skin-tango .jcarousel-next-horizontal{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png) no-repeat scroll -30px -32px transparent;cursor:pointer;height:24px;position:absolute;right:0px;top:-42px;width:28px}
+.iphome-jcarousel-skin-tango .jcarousel-next-horizontal:hover{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png) no-repeat scroll -30px -65px transparent;cursor:pointer;height:24px;position:absolute;right:0px;top:-42px;width:28px}
+.iphome-jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal{left:5px;right:auto}
+.iphome-jcarousel-skin-tango .jcarousel-prev-horizontal .iphome-jcarousel-skin-tango .jcarousel-next-horizontal:hover{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png)  no-repeat scroll -30px -32px transparent}
+.iphome-jcarousel-skin-tango .jcarousel-next-horizontal:active{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png)  no-repeat scroll -30px -32px transparent}
+.iphome-jcarousel-skin-tango .jcarousel-next-disabled-horizontal, .iphome-jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover, .iphome-jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png)  no-repeat scroll -30px 0 transparent;cursor:default}
+.iphome-jcarousel-skin-tango .jcarousel-prev-horizontal{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png)  no-repeat scroll 0 -32px transparent;cursor:pointer;height:24px;right:26px;position:absolute;top:-42px;width:28px}
+.iphome-widget .iphome-jcarousel-skin-tango .jcarousel-prev-horizontal{right:338px;top:270px}
+.iphome-widget .iphome-jcarousel-skin-tango .jcarousel-next-horizontal{right:310px;top:270px}
+.iphome-widget_small .iphome-jcarousel-skin-tango .jcarousel-prev-horizontal {left: 80px;top: 262px;}
+.iphome-widget_small .iphome-jcarousel-skin-tango .jcarousel-next-horizontal{left:108px;top:262px}
+.iphome-jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal{background-image:url(http://images.indiaplaza.com/ipimages/slider-arrows.png);left:auto;right:5px}
+.iphome-jcarousel-skin-tango .jcarousel-prev-horizontal:hover{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png)  no-repeat scroll 0 -65px transparent}
+.iphome-jcarousel-skin-tango .jcarousel-prev-horizontal:active{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png) no-repeat scroll 0 -32px transparent}
+.iphome-jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .iphome-jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover, .iphome-jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png) no-repeat scroll 0 0 transparent;cursor:default}
+.iphome-jcarousel-skin-tango .jcarousel-next-vertical{background:url(http://images.indiaplaza.com/ipimages/slider-arrows.png)  no-repeat scroll 0 0 transparent;bottom:5px;cursor:pointer;height:32px;left:43px;position:absolute;width:32px}
+.iphome-jcarousel-skin-tango .jcarousel-next-vertical:hover{background-position:0 -32px}
+.iphome-jcarousel-skin-tango .jcarousel-next-vertical:active{background-position:0 -64px}
+.iphome-jcarousel-skin-tango .jcarousel-next-disabled-vertical, .iphome-jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover, .iphome-jcarousel-skin-tango .jcarousel-next-disabled-vertical:active{background-position:0 -96px;cursor:default}
+.iphome-jcarousel-skin-tango .jcarousel-prev-vertical{cursor:pointer;height:32px;left:43px;position:absolute;top:5px;width:32px}
+.iphome-jcarousel-skin-tango .jcarousel-prev-vertical:hover{background-position:0 -32px}
+.iphome-jcarousel-skin-tango .jcarousel-prev-vertical:active{background-position:0 -64px}
+.iphome-jcarousel-skin-tango .jcarousel-prev-disabled-vertical, .iphome-jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover, .iphome-jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active{background-position:0 -96px;cursor:default}
+.iphome-widget .ProductBlk-lesspd {padding: 0;}
+.iphome-widget .ProductBlk { height: 220px;position: relative;width: 165px;padding: 0px;margin:0px 5px 0px 5px; }
+.iphome-widget .ProductBlk a ,.iphome-widget_small .ProductBlk a {text-decoration: none;color: #555;text-align:center;}
+.iphome-widget .ProductBlk a:hover ,.iphome-widget_small .ProductBlk a:hover {text-decoration: none;}
+.iphome-widget_small {height: 300px; position: relative;width: 165px; padding: 0px; margin-top: 0; margin-right: 10px;margin-bottom: 0;margin-left: 0;}
+.recom-mini-item {height: 65px;margin-left:5px;}
+.ip-position-relative, .rposition, .position-relative {position: relative;}
+.unit{float: left;zoom: 1;}
+.line, .lastUnit{overflow: hidden;zoom: 1;font-size: 12px;}
+.lastUnit{float: none;position: relative;left: -3px;width: auto;}
+.iphome-widget .prodInfo a,.iphome-widget_small a{color:#555;text-decoration:none;}
+.iphome-widget .prodInfo a:hover,.iphome-widget_small a:hover{text-decoration:underline;}
+.iphome-widget_small a .ips-bs-title{color:#555;margin:10px 0px 0px 5px;}
+.iphome-widget_small a .ips-bs-author{color:#555;margin:10px 0px 0px 5px;}
+.iphome-widget_small .module-item .ips-list-image {width: 40px;margin: 4px 6px 0 4px;text-align: center;}
+.iphome-widget .prodInfo {clear:both; border: 0 solid #CCCCCC;padding: 0px 5px 0px 0px;margin-top:5px; text-align:center;}
+.iphome-widget .prodInfo .productName {font-family: Segoe UI, Lucida Grande, UnDotum, Arial, Helvetica, sans-serif;font-size: 12px;color: #555;text-align: center;}
+.iphome-widget .prodInfo .prodValues {clear:both; margin-bottom: 5px;text-align: center !important;}
+.iphome-widget .prodPrice {color: #9B0000;font-size: 12px;font-weight: bold;margin-right: 5px;}
+.iphome-widget .prodDiscount {color: #666666;font-size: 11px;font-weight: normal;text-decoration: line-through;}
+li.emptyitem {margin:25px 0px 0px 50px;font-weight: bold;color: #555;font-size: 12px;font-family: 'Segoe UI', 'Lucida Grande', UnDotum, Arial, Helvetica, sans-serif;}
+
+.discimg-1, .discimg-10, .discimg-11, .discimg-12, .discimg-13, .discimg-14, .discimg-15, .discimg-16, .discimg-17, .discimg-18, .discimg-19, .discimg-2, .discimg-20, .discimg-21, .discimg-22, .discimg-23, .discimg-24, .discimg-25, .discimg-26, .discimg-27, .discimg-28, .discimg-29, .discimg-3, .discimg-30, .discimg-31, .discimg-32, .discimg-33, .discimg-34, .discimg-35, .discimg-36, .discimg-37, .discimg-38, .discimg-39, .discimg-4, .discimg-40, .discimg-41, .discimg-42, .discimg-43, .discimg-44, .discimg-45, .discimg-46, .discimg-47, .discimg-48, .discimg-49, .discimg-5, .discimg-50, .discimg-6, .discimg-7, .discimg-8, .discimg-9, .discimg-51, .discimg-52, .discimg-53, .discimg-54, .discimg-55, .discimg-56, .discimg-57, .discimg-58, .discimg-59, .discimg-60, .discimg-61, .discimg-62, .discimg-63, .discimg-64, .discimg-65, .discimg-66, .discimg-67, .discimg-68, .discimg-69, .discimg-70, .discimg-71, .discimg-72, .discimg-73, .discimg-74, .discimg-75, .discimg-76, .discimg-77, .discimg-78, .discimg-79, .discimg-80, .discimg-81, .discimg-82, .discimg-83, .discimg-84, .discimg-85, .discimg-86, .discimg-87, .discimg-88, .discimg-89, .discimg-90, .discimg-91, .discimg-92, .discimg-93, .discimg-94, .discimg-95, .discimg-96, .discimg-97, .discimg-98, .discimg-99 {background-image: url(http://images.indiaplaza.com/ipimages/ip_discount_sprite1.png);background-position: left top;background-repeat: no-repeat;width: 38px;height: 40px;position: absolute;}
+.discimg-2 {background-position: -40px 0;}
+.discimg-3 {background-position: -80px 0;}
+.discimg-4 {background-position: -120px 0;}
+.discimg-5 {background-position: -160px 0;}
+.discimg-6 {background-position: -200px 0;}
+.discimg-7 {background-position: -240px 0;}
+.discimg-8 {background-position: -280px 0;}
+.discimg-9 {background-position: -320px 0;}
+.discimg-10 {background-position: -360px 0;}
+.discimg-11 {background-position: left -40px;}
+.discimg-12 {background-position: -40px -40px;}
+.discimg-13 {background-position: -80px -40px;}
+.discimg-14 {background-position: -120px -40px;}
+.discimg-15 {background-position: -160px -40px;}
+.discimg-16 {background-position: -200px -40px;}
+.discimg-17 {background-position: -240px -40px;}
+.discimg-18 {background-position: left -80px;}
+.discimg-19 {background-position: -40px -80px;}
+.discimg-20 {background-position: -80px -80px;}
+.discimg-21 {background-position: -120px -80px;}
+.discimg-22 {background-position: -160px -80px;}
+.discimg-23 {background-position: -200px -80px;}
+.discimg-24 {background-position: -240px -80px;}
+.discimg-25 {background-position: left -120px;}
+.discimg-26 {background-position: -40px -120px;}
+.discimg-27 {background-position: -80px -120px;}
+.discimg-28 {background-position: -120px -120px;}
+.discimg-29 {background-position: -160px -120px;}
+.discimg-30 {background-position: -200px -120px;}
+.discimg-31 {background-position: -240px -120px;}
+.discimg-32 {background-position: -280px -120px;}
+.discimg-33 {background-position: -320px -120px;}
+.discimg-34 {background-position: -360px -120px;}
+.discimg-35 {background-position: -400px -120px;}
+.discimg-36 {background-position: -440px -120px;}
+.discimg-37 {background-position: -480px -120px;}
+.discimg-38 {background-position: left -160px;}
+.discimg-39 {background-position: -40px -160px;}
+.discimg-40 {background-position: -80px -160px;}
+.discimg-41 {background-position: -120px -160px;}
+.discimg-42 {background-position: -160px -160px;}
+.discimg-43 {background-position: -200px -160px;}
+.discimg-44 {background-position: -240px -160px;}
+.discimg-45 {background-position: -280px -160px;}
+.discimg-46 {background-position: -320px -160px;}
+.discimg-47 {background-position: -360px -160px;}
+.discimg-48 {background-position: -400px -160px;}
+.discimg-49 {background-position: -440px -160px;}
+.discimg-50 {background-position: left -200px;}
+.discimg-51 {background-position: -40px -200px;}
+.discimg-52 {background-position: -80px -200px;}
+.discimg-53 {background-position: -120px -200px;}
+.discimg-54 {background-position: -160px -200px;}
+.discimg-55 {background-position: -200px -200px;}
+.discimg-56 {background-position: -240px -200px;}
+.discimg-57 {background-position: -280px -200px;}
+.discimg-58 {background-position: -320px -200px;}
+.discimg-59 {background-position: -360px -200px;}
+.discimg-60 {background-position: -400px -200px;}
+.discimg-61 {background-position: -440px -200px;}
+.discimg-62 {background-position: -480px -200px;}
+.discimg-63 {background-position: left -240px;}
+.discimg-64 {background-position: -40px -240px;}
+.discimg-65 {background-position: -80px -240px;}
+.discimg-66 {background-position: -120px -240px;}
+.discimg-67 {background-position: -160px -240px;}
+.discimg-68 {background-position: -200px -240px;}
+.discimg-69 {background-position: -240px -240px;}
+.discimg-70 {background-position: -280px -240px;}
+.discimg-71 {background-position: -320px -240px;}
+.discimg-72 {background-position: -360px -240px;}
+.discimg-73 {background-position: -400px -240px;}
+.discimg-74 {background-position: -440px -240px;}
+.discimg-75 {background-position: left -280px;}
+.discimg-76 {background-position: -40px -280px;}
+.discimg-77 {background-position: -80px -280px;}
+.discimg-78 {background-position: -120px -280px;}
+.discimg-79 {background-position: -160px -280px;}
+.discimg-80 {background-position: -200px -280px;}
+.discimg-81 {background-position: -240px -280px;}
+.discimg-82 {background-position: -280px -280px;}
+.discimg-83 {background-position: -320px -280px;}
+.discimg-84 {background-position: -360px -280px;}
+.discimg-85 {background-position: -400px -280px;}
+.discimg-86 {background-position: -440px -280px;}
+.discimg-87 {background-position: left -320px;}
+.discimg-88 {background-position: -40px -320px;}
+.discimg-89 {background-position: -80px -320px;}
+.discimg-90 {background-position: -120px -320px;}
+.discimg-91 {background-position: -160px -320px;}
+.discimg-92 {background-position: -200px -320px;}
+.discimg-93 {background-position: -240px -320px;}
+.discimg-94 {background-position: -280px -320px;}
+.discimg-95 {background-position: -320px -320px;}
+.discimg-96 {background-position: -360px -320px;}
+.discimg-97 {background-position: -400px -320px;}
+.discimg-98 {background-position: -440px -320px;}
+.discimg-99 {background-position: -480px -320px;}
+.discmainpos {top: 0;right: -4px; }
+.discbrowsepos {top: 75px;right: 380px; }
+.discfdppos {top: 45px;right: 0px;}
+.home-widget .ProductBlk img { display: inline-block;margin-top: 15px; }
+
+/* home page footer area*/
+.footer{font-size: 12px;color: black;clear: both;background-color: transparent;background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) repeat-x 0 -730px; margin-top:20px;}
+.footer-cont{width:968px;margin:0 auto;overflow:hidden;padding:15px 15px 10px 15px;}
+.footer-main-cont{overflow:hidden;}
+.footer-heading,.cust-test-heading{font-family:Georgia, "Nimbus Roman No9 L", serif;border-bottom: 1px dotted #4C4C4C;font-size:13px;font-weight:bold;color:#000;padding-bottom:5px;margin-bottom:5px;margin-top:5px;}
+.our-achievments-outer,.footer-links-outer{float:left;width:320px;}
+.redhiring a{width:93px;height:92px;margin:12px 0 10px 0;display:block;}
+.sdguarantee a{width:160px;height:79px;margin:0;display:block;}
+.footer-links-outer{width:960px;padding-top: 0px;padding-right: 15px;padding-bottom: 0;padding-left: 15px;float: right;}
+.footer-terms-outer{overflow:hidden;margin-bottom:0px;}
+.footer-terms-outer .company,.footer-terms-outer .learn-more,.footer-terms-outer .need-help{float:left;width:200px;margin-right:27px;margin-left: 30px;}
+.footer-terms-outer .company,.footer-terms-outer .learn-more,.footer-terms-outer .need-help1{width:200px;margin-left:30px;float: left;}
+.footer-terms-outer .need-help1{width:150px;margin-right:0!important;}
+.footer-terms-outer .learn-more{width:90px;}
+.footer-terms-outer .need-help{width:190px;margin-right:0!important;}
+ul.footer-links{list-style:none;padding:0;margin:0;}
+ul.footer-links li a{text-decoration:none;color:#666;line-height:18px;}
+ul.footer-links li a:hover{text-decoration:none;color:#484335;}
+.footer-follow-us{padding:5px;overflow:hidden;margin-left: 15px;font-family:Georgia, "Nimbus Roman No9 L", serif;border-bottom: 1px dotted #4C4C4C;font-size:13px;font-weight:bold;color:#000;}
+.footer-follow-us .follow-us-text{border-right:2px solid #717171;float:left;padding:6px 6px 7px 0;}
+.payment-method{width:100px;border-right:2px solid #717171;float:left; margin-top:8px;}
+.footer-facebook a,.footer-twitter a,.footer-googleplus a{float:left;margin:0 0 0 10px;width:28px;height:29px;display:block;}
+.footer-payment{float:left;margin:6px 0 0 10px;width:814px;height:55px;font-family: Arial, Helvetica, sans-serif;}
+.footer-payment a{text-decoration:none;color:#666;line-height:18px;font-weight:normal;}
+.footer-payment a:hover{text-decoration:none;color:#333; font-weight:bold;}
+.footer-cust-testimon-outer{background:#323232;margin-right:2px;float:left;width:260px;height:250px;padding-top: 11px;padding-right: 5px;padding-bottom: 15px;padding-left: 5px;}
+.footer-cust-testimon-cont{width:315px;padding:0 10px;}
+.footer-cust-testimon{font-size:11px;padding-bottom:10px;border-bottom:1px solid #434343;margin-bottom:10px;}
+.footer-cust-testimon span{font-size:13px;display:block;}
+.cust-test-heading{font-size:21px;font-weight:normal;}
+.footer-text{margin-top: 2px;margin-right: 0;margin-bottom: 2px;margin-left: 0;}
+.footer-terms-outer .company,.footer-terms-outer .learn-more,.footer-terms-outer .follow-us{width:300px;margin-left:45px;float: left;}
+.footer-terms-outer .follow-us{width:310px;margin-right:0!important;}
+.social-title {font-family:Georgia, "Nimbus Roman No9 L", serif;font-style:italic;font-size:23px;color:#000;font-weight:normal;margin-top: 0;margin-right: 10px;margin-bottom: 0;margin-left: 10px;text-align: center;}
+
+/* SOCIAL ICONS - GENERAL */
+.social {list-style:none;width:290px;background-color:#FDFDF5;border:1px solid #D5D0C6;-moz-border-radius:4px;-webkit-border-radius:4px;margin-top: 10px;margin-right: 0;margin-bottom: 0;margin-left: 10px;padding-top: 8px;padding-right: 0;padding-bottom: 8px;padding-left: 15px;height: 35px;}
+.social2 { list-style:none; width:40px; float:right; margin:1px 35px 0 0; }
+.social li, .social2 li {display:inline;float:left;background-repeat:no-repeat;	}
+.social li a, .social2 li a { display:block; width:34px; height:34px; position:relative; text-decoration:none; }
+.social li a:hover, .social2 li a:hover { display:block; width:34px; height:34px; position:relative; text-decoration:none; opacity:1; }
+.social li a strong, .social2 li a strong {font-weight:100;text-transform:uppercase;font-size:11px;position:absolute;left:20px;margin:-15px 0 0 0;color:#fff;padding:5px;z-index:9999;text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75);background-color:rgba(0, 0, 0, 0.7); -moz-border-radius:3px;-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-webkit-border-radius:3px;-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);border-radius:3px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+strong#rss { text-align:center; }
+strong#twitter { width:70px; text-align:center; }
+strong#facebook { width:65px; }
+strong#mail { text-align:center; }
+strong#stumble { width:88px; }
+strong#googleplus {  text-align:center; }
+li.facebook { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -93.5px -323.5px no-repeat;margin-left: 10px;margin-right: 10px;padding-bottom: 0px;}
+li.facebook:hover { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -50px -323.5px no-repeat; margin-left:10px;  margin-right:10px; padding-bottom:0px;  }
+li.twitter { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -93.5px -360.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;  }
+li.twitter:hover{   background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -50px -360.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+li.googlePlus { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -93.5px -399.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+li.googlePlus:hover { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -50px -399.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+li.subscribemail { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -93.5px -439.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+li.subscribemail:hover { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -50px -439.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px; }
+li.dribbble{background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -94.5px -480.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+li.dribbble:hover{background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -51px -480.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;} 
+li.stumble { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -93.5px -323.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+li.stumble:hover { background:url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) -50px -323.5px no-repeat; margin-left:10px;  margin-right:10px;  padding-bottom:0px;}
+.fbloginbtn {background: url(http://images.indiaplaza.com/ipimages/indiaplaza2_sprite_new.png) 241px -208px;height: 20px;width: 150px;border: none;cursor: pointer;}
+
+/* addtocart.css */
+#my_cart_menu{ color: #0F2D5E;text-decoration:none;}
+#my_cart_menu:hover{ text-decoration:underline;cursor:pointer;color:#FF8000;}
+.addCartContainer{background:url(http://images.indiaplaza.com/indiaplazaimages/bg-body.gif) repeat-x scroll 0 0 #FFFFFF;width:690px;min-height:400px;border-radius:5px;moz-border-radius:5px;box-shadow:0 0 10px #fff;margin:84px auto 0;}.addCartContainerHead{background:url(http://images.indiaplaza.com/indiaplazaimages/bg-addCartContainerHead.png) no-repeat scroll 0 33px transparent;}.addCartContainerFoot{background:url(http://images.indiaplaza.com/indiaplazaimages/bg-addCartContainerFoot.png) no-repeat scroll right 33px transparent;overflow:hidden;}.addCartContainer #shoppingCartHeader{position:relative;height:51px;margin:0;}#closeShoppingCart{position:absolute;top:0;right:5px;display:block;color:#fff;font-weight:bold;text-decoration:none;font-size:14px;padding:3px 5px;}#closeShoppingCart:hover,#closeShoppingCart:focus{text-decoration:none;}.cartSkuTitle{color:#003399;font-family:tahoma,verdana,arial,sans-serif;font-size:12px;text-decoration:none;line-height:25px;margin-left:15px;margin-top:10px;width:auto;}#shopCartTitle{position:absolute;top:10px;left:20px;font-size:18px;padding-left:25px;color:#fff;background:url(http://images.indiaplaza.com/indiaplazaimages/buyNow.gif) no-repeat 0 4px;}.addCartContainer #mainCartContainer{float:left;width:690px;padding:7px 0;}#cartItemHeader{float:left;width:670px;background:#3e7dd1;color:#fff;text-align:center;font-weight:bold;font-size:12px;margin:0 10px;}#cartItemHeader .item{width:80px;float:left;border-right:#fff solid 1px;padding:5px 0;}#cartItemHeader .description{float:left;width:250px;border-right:#fff solid 1px;padding:5px 0;}#cartItemHeader .itemPrice{float:left;width:80px;border-right:#fff solid 1px;padding:5px 10px 5px 0;}#cartItemHeader .quantity{float:left;width:80px;border-right:#fff solid 1px;padding:5px 0;}#cartItemHeader .subTotal{float:left;width:80px;border-right:#fff solid 1px;padding:5px 10px 5px 0;}#cartItemHeader .remove{float:left;width:30px;text-align:center;}#itemContainer{float:left;width:670px;max-height:220px;min-height:220px;overflow-y:auto;overflow-x:hidden;margin:0 0 0 10px;}#itemContainer .itemRow{float:left;width:669px;min-height:80px;border-left:1px solid #eeeeee;border-bottom:1px solid #eeeeee;}#itemContainer .item{width:80px;float:left;border-right:#eee solid 1px;min-height:80px;text-align:center;padding:5px 0;}#itemContainer .item img{height:70px;}#itemContainer .description{float:left;width:240px;border-right:#eee solid 1px;min-height:77px;text-align:center;font-size:13px;padding:8px 5px 5px;}#itemContainer .description a{color:#000;text-decoration:none;}#itemContainer .description a:hover,#itemContainer .description a:focus{color:#000;text-decoration:none;width:auto;}#itemContainer .itemPrice{float:left;width:80px;border-right:#eee solid 1px;text-align:right;min-height:80px;padding:5px 10px 5px 0;}#itemContainer .mrpPrice{text-decoration:line-through;color:#666;}#itemContainer .ipPrice{font-size:13px;}#itemContainer .quantity{float:left;width:80px;border-right:#eee solid 1px;min-height:80px;text-align:center;padding:5px 0;}#itemContainer .quantity img{margin:0 0 0 44px;}#itemContainer .subTotal{float:left;width:80px;border-right:#eee solid 1px;text-align:right;min-height:80px;padding:5px 10px 5px 0;}#itemContainer .remove{float:left;width:30px;text-align:center;min-height:21px;padding:5px 0 0 28px;}#itemContainerFoot{background-color:#EBF2FC;float:left;width:670px;font-size:13px;font-weight:bold;margin:0 10px 10px;padding:5px 0;}#itemSummary{float:left;width:250px;color:#f00;margin:20px 0 0 50px;}#cartPriceSummary{float:right;width:240px;text-align:right;margin:0;}.summaryTitle{margin-top:5px;float:left;width:150px;}.summaryValue{margin-top:5px;float:left;margin-left:2px;}.summaryRupees{margin-top:5px;margin-left:8px;float:left;}.grandTotal{margin-top:5px;font-size:15px;color:#f00;font-weight:bold;}#shoppingCartAction{float:left;width:670px;margin:0 10px;}#continueShopping{background-image:url(http://images.indiaplaza.com/indiaplazaimages/continueShopping.png);background-repeat:no-repeat;background-position:0 0;width:182px;float:left;height:37px;margin:0;}#continueShopping:hover,#continueShopping:focus{background-position:0 0;}#placeOrder{width:190px;float:right;margin:0;}#placeOrderSmall{width:120px;float:right;margin:0;}.acpQtyTxtField{font-family:Arial, Helvetica, sans-serif;font-size:11px;width:30px;}
+.maskaddtocartpopup{background-image:url(http://images.indiaplaza.com/indiaplazaimages/gray.png);height:100%;display:block;left:0;top:0;width:100%;z-index:100002;position:absolute;}
+/*.maskaddtocartpopup{background-image:url(http://images.indiaplaza.com/indiaplazaimages/gray.png);background-repeat:repeat; height:100%;display:block;left:0;top:0;width:100%;z-index:100002;position:absolute;}*/
+.ipdicount{color:#BB0000;}.font14{font-size:14px;}.ShopCartHdr{background-color:#265EA9;float:left;width:530px;height:30px;font-size:18px;padding-left:10px;padding-top:5px;color:white;}.acpHline{width:670px;text-align:center;font-size:18px;background-color:#E5F5C5;color:#006400;border:1px solid gray;margin:0 auto 12px;}.errMsg{background:none repeat scroll 0 0 #FCE7E7;border:1px solid #BB0000;color:#BB0000;text-align:center;margin:1px;padding:5px;}.sendMail{background:no-repeat scroll 5px 10px #CCFFCC;border:1px solid #669966;color:green;font-size:13px;text-align:left;padding:10px 0 10px 30px;}.placeOrderButton a{height:37px;float:right;background:url(http://images.indiaplaza.com/indiaplazaimages/placeorder-button.png) no-repeat scroll 0 0 transparent;margin:0;}.placeOrderButton a:hover{background-position:0 -37px;}.placeOrderButtonSmall a{position:absolute;top:13px;left:490px;height:25px;float:right;background:url(http://images.indiaplaza.com/indiaplazaimages/placeorder-button-small.png) no-repeat scroll 0 0 transparent;margin:0;}.placeOrderButtonSmall a:hover{position:absolute;top:13px;left:490px;background-position:0 -25px;}#itemContainer h3{border-bottom:#eee solid 1px;padding:5px;}.cartCashBack{color:#f00;line-height:13px;}.cartCashBack span{font-size:10px;}.remove a{display:block;height:19px;width:19px;background-image:url(http://images.indiaplaza.com/indiaplazaimages/crosswhite.png);background-repeat:no-repeat;}.remove a:hover{height:21px;width:21px;background-image:url(http://images.indiaplaza.com/indiaplazaimages/crossred.png);}.innerdivpopup,.displaydiv{display:block;}.shoppingCart,.hidediv{display:none;}.movewslst a{display:block;height:19px;width:20px;
+background-image:url("https://indiaplaza1.blob.core.windows.net/indiaplazaimages/add-to-wishlist-icon-b.png");background-repeat: no-repeat;}
+.movewslst a:hover{height:19px;width:20px;background-image:url("https://indiaplaza1.blob.core.windows.net/indiaplazaimages/add-to-wishlist-icon-r.png");}
+#itemContainer .movewslst {float: left;padding: 5px 0 0 28px;text-align: center;width: 30px;}
+
+/* cartloginpopup.css */
+.loginpopupcontainer{background-color:#FFFFFF;width:700px;margin:60px auto 0;}.loginpopupcontainer .topCrv,.loginpopupcontainer .botCrv{background-image:url(http://images.indiaplaza.com/indiaplazaimages/acp_crvs.png);background-position:left top;background-repeat:no-repeat;height:17px;}.loginpopupcontainer .botCrv{background-position:left bottom;height:17px;}.loginpopupcontainer .mainArea{background-color:#fff;border-left:10px solid #e47911;border-right:10px solid #e47911;padding:7px 0;}.loginpopupacpHline{text-align:center;margin:0 auto 12px;}.clear{clear:both;}.loginacpClose a{width:45px;height:17px;display:block;margin-left:656px;}.loginpopupmainIn{width:660px;height:225px;overflow:auto;margin:0 auto;}
+.maskaddtocartpopup{background-image:url(http://images.indiaplaza.com/indiaplazaimages/gray.png);height:100%;display:block;left:0;top:0;width:100%;z-index:100002;position:fixed;}
+/*.maskaddtocartpopup{background-image:url(http://images.indiaplaza.com/indiaplazaimages/gray.png);background-repeat:repeat; height:100%;display:block;left:0;top:0;width:100%;z-index:100002;position:absolute;}*/
+
+/* store_spotlightslide.css  starts */
+#slides {height:312px;width:750px;overflow:hidden;}
+.slide {float:left;}
+#menu {clear: both;height: 40px;background-color: #656565; background:url(http://images.indiaplaza.com/indiaplazaimages/bg-galleryMenu.png) repeat-x;}
+#menu ul{ margin:0px;padding:0px; }
+.menuItem li{/* Every thumbnail is a li element */display:inline;color:#004B91;/* For IE 7 */}
+.menuItem li.inact a{ display: inline-block;}
+.menuItem li.act,.menuitem.act:hover{/* The active state of the thumb *//* background:url(http://images.indiaplaza.com/indiaplazaimages/active_bg_120.png) no-repeat; *//* background-color: #454545;*/}
+.menuItem li a{margin:-6px 0 0 0; display: inline-block;cursor: pointer;}
+#ie #menu li a span{display: inline-block;}
+.menuItem li.act a{cursor:default;margin: -6px 0 0 0;display: inline-block;}
+.menuItem li.act a:hover {text-decoration: none;}
+.fbar{/* The left-most vertical bar, next to the first thumbnail */width:2px;background:url(http://images.indiaplaza.com/indiaplazaimages/divider.png) no-repeat right;}
+#menu li a span{padding: 0 0 0 8px;}
+#menu li a span span{ padding: 0 8px 0 0px;}
+#menu li a span span span{ padding: 13px 2px;}
+#menu li.act a span{display: inline-block; background:url(http://images.indiaplaza.com/indiaplazaimages/bg-menuActive.png) no-repeat 0 0;padding: 0 0 0 8px;}
+#menu li.act a span span{background-repeat: no-repeat;background-position: right -82px; padding: 0 8px 0 0px;}
+#menu li.act a span span span{background-repeat: repeat-x;background-position: 0 -41px; padding: 13px 2px;}
+a img {border-bottom: medium none;border-left: medium none;border-top: medium none;border-right: medium none;}
+/* store_spotlightslide.css  ends */
+
+.orangefontnew {color: #E54F01; font-size: 1.0em;}
+.brwfreebie{padding-top: 5px;font-variant: inherit;line-height: 10px;line-height: 12px;color: #E54F01;}
+.viewmorenew{color: #003399;font-family: "Segoe UI",arial,helvetica,clean,sans-serif;cursor:pointer;margin-top: 5px;text-align: right;}
+.viewmorenew a:hover{color: #BD0800;font-family: "Segoe UI",arial,helvetica,clean,sans-serif;cursor:pointer;margin-top: 5px;text-align: right;}
+.viewmorenew: hover{color: #BD0800;font-family: "Segoe UI",arial,helvetica,clean,sans-serif;cursor:pointer;margin-top: 5px;text-align: right;}
+.ratingPopStyle{ height: 120px; position: absolute;  left: 600px; top: 290px;  background-color: white; border: 8px solid #999999; display: none; overflow: hidden;}
+.ratingDefault{line-height: 22px; margin: 20px 4px 0; text-align: center;}
+.ratingHead{float: left; margin: 2px 2px;}
+.buttonStyle{background: none repeat scroll 0 0 #05B458;border: 1px solid #039649; border-radius: 2px 2px 2px 2px;color: #FFFFFF;padding: 5px;height: auto; width: auto;}
+.filterbrandHdr h2{font-family: calibri,"Segoe UI",arial,helvetica,clean,sans-serif;font-weight: 700;color: #121212;font-size: 16px;padding-left: 23px;}
+.section_heading{border-bottom: 1.5px solid #E54F01;padding-bottom: 5px;margin-bottom: 8px;}
+.section_heading h2{color: #121212;font-family: calibri,"Segoe UI",arial,helvetica,clean,sans-serif;font-size: 16px;font-weight: 700;}
+
+/* Added on May 22 for New Search Page */
+.subCatLefthomeNav li a.Navbam{color: #E54F01;font-weight: 700;font-size: 12px;}
+.subCatLefthomeNav li a.Navbam:hover{font-family: tahoma,verdana,arial,sans-serif;font-weight: 700;font-size: 12px;color: #BD0800;}
+.seeall {float: right; font-size: 12px;padding-top: 9px;padding-right: 4px;display: block; text-align: right;color: #003399;}
+.seeall:hover{float: right;font-size: 12px;padding-top: 9px;padding-right: 4px;display: block;text-align: right;color: #E54F01;text-decoration: none;}
+.productarea{width:745px;float:left;padding:0 0 0 3px;}
+.product_main{width:998px;}
+.page-main-cont{width:995px;padding:15px 0 9px 3px;overflow:visible!important;}
+.product_listing_outer{overflow:hidden;padding-top: 2px;padding-right: 5px;padding-bottom: 2px;padding-left: 0;}
+.product_listing{ clear:both;-moz-border-radius:0 0 6px 6px;-webkit-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;margin-bottom:15px;overflow:hidden;padding:0 8px;border-top-width: 0;border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #142C45;border-right-color: #142C45;border-bottom-color: #142C45;border-left-color: #142C45;}
+.product-first{border-top:0 dotted #b5b5b5;}
+.product_listing_cont{padding:7px 25px 11px 11px;float:left;height:100%;width:140px;cursor:default;}
+.product_listing_cont:hover{}
+.product_listing_heading{color: #003399;font-size: 13px; font-family:tahoma,verdana,arial,sans-serif;text-decoration: none;}
+.product_listing_heading a{color: #003399;font: 12px/1.231 tahoma,verdana,arial,sans-serif;text-decoration: none;}
+.product_listing_heading a:hover{color: #E54F01;font: 12px/1.231 tahoma,verdana,arial,sans-serif;text-decoration: underline;}
+.product_listing_price_outer{overflow:hidden;padding-top:5px;}
+.product_price{font-size: 13px; font-family:tahoma,verdana,arial,sans-serif;color:#CC0000;}
+.searchmrp{font-size: 13px; font-family:tahoma,verdana,arial,sans-serif;color:#545454;text-decoration: line-through;margin-top: 2px;}
+.searchourprice{font-size: 13px; font-family:tahoma,verdana,arial,sans-serif;color:#E54F01;margin-top: 2px;}
+.searchresults {font-family: tahoma,verdana,arial,sans-serif; font-size: 11px;color: #666;font-weight: normal;}
+.product_price span.originalprice{font-size:11px;color:#757575;text-decoration:line-through;font-weight:normal;}
+.product_discount_outer{float:right;overflow:hidden;}
+.product_small_cod{background:url(/img/allproduct/product_cod_small.gif) no-repeat left;width:36px;height:20px;float:left;}
+.product_discount{font-size:12px;color:#bc0800;float:right;text-align:right;font-weight:bold;white-space:nowrap;}
+.product_discount span{font-size:11px;font-weight:normal;}
+.product-image,.deal-image{ float: left;text-align: center;padding: 15px;margin: 5px;font-size: 1em;}
+.product-image:hover{box-shadow:0 0 4px #888;}
+.deal-image{height:99px;}
+.no-prod-div{width:0;height:0;clear:both;}
+.allproducts-cont{overflow:hidden;;}
+.no-filters{background:#fff;border:0;float:left;}
+.no-filters-banner{margin-bottom:7px;}
+.filter-prod-head-outer{height:30px;overflow:hidden;-moz-border-radius:6px 6px 0 0;-webkit-border-radius:6px 6px 0 0;border-radius:6px 6px 0 0;background-color: #E2E7EA;}
+.filter-prod-head{float:left;padding:1px 0 4px 1px;overflow:hidden;}
+.filter-prod-ico{width:5px;height:27px;float:left;padding:0 5px 0 2px;}
+.filter-prod-text{color:#292A2A;font-weight:bold;font-size:15px;float:left;padding-top:3px;}
+.filter-prod-text span{font-weight:normal;font-size:12px;color:#4a4a4a;}
+.filter-prod-sort-outer{float:right;font-size:11px;color:#4a4a4a;padding:5px 8px 0 0;overflow:hidden;}
+.filter-sort-text{float:left;padding:2px 3px 0 0;}
+.refinded-by-outer{padding:6px 0 4px 3px;font-size:11px;color:#404040;display:none;overflow:hidden;}
+.refinded-by-outer span.refined-text{display:block;float:left;font-weight:bold;padding-right:5px;}
+.refined-box,.sort-by-box{background:#f5f5f5;border:1px solid #bababa;padding:0 3px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+.refined-box{float:left;}
+.sort-by-box{padding:2px 6px;float:right;}
+span.filter-sep{float:left;padding:0 4px;}
+.sort-by-box span{background:#f5f5f5 url(/img/snapdeal/filter-sort-arrow.png) no-repeat right 6px;font-weight:bold;color:#292A2A;padding-right:10px;cursor:pointer;}
+.sort-by-drop{position:absolute;background:#f5f5f5;border:1px solid #bababa;border-bottom:3px solid #bababa;-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;margin:17px 0 0 42px;border-top:0;width:114px;display:none;z-index:15;}
+ul.sort-by-drop-list{font-size:11px;list-style:none;padding:0;margin:0;}
+ul.sort-by-drop-list li{padding:3px 5px;cursor:pointer;border-bottom:1px dotted #888484;margin-top:1px;margin-bottom:1px;}
+ul.sort-by-drop-list li:hover{background:#1f1f1f;color:#fff;}
+.sort-slider-bottom-text{font-size:10px;text-align:center;color:#858585;}
+.sort-slider-min-max-outer{overflow:hidden;font-size:10px;color:#676767;}
+.sort-slider-min-max-value-outer{overflow:hidden;font-size:11px;color:#343434;font-weight:bold;margin-top:7px;}
+.min-value{float:left;}
+.max-value{float:right;}
+.filter-no-results{background:url(/img/snapdeal/no-prod-alert.png) no-repeat;padding:3px 0 0 62px;color:#303030;font-size:13px;margin:20px 0 0 10px;height:42px;}
+.filter-no-results span{color:#a1060a;font-weight:bold;font-size:16px;}
+.filter-no-prod-suggest-outer{overflow:hidden;margin:26px 0 16px 3px;}
+.filter-no-prod-suggest{background:#dbfce1;font-size:12px;font-weight:bold;border:1px solid #adffbc;border-right:0;-moz-border-radius:8px 0 0 8px;-webkit-border-radius:8px 0 0 8px;border-radius:8px 0 0 8px;padding:6px 0 8px 9px;float:left;}
+.filters-bor{border-bottom:2px solid #142C45;height:2px;margin:0;}
+.refined-filters-outer{float:left;overflow:hidden;width:670px;}
+.lb-bg-mctg{background-color:#e1edfd;border-top:1px dotted #bcbbbb;margin:0 5px;}
+.top-list{border-top:0 dotted gray;}
+.lst-bg-mctg{border-bottom:0 dotted gray!important;}
+.mtchng-catgrs{margin-bottom:15px;width:221px;background-color:#e1edfd;padding-bottom:5px;border:1px solid #C4DCFE;}
+.mtch-catgrs-title{color:#2a2a2a;font-size:14px;font-weight:bold;padding:3px 0 3px 10px;background-color:#d4e5fc;margin-bottom:7px;}
+.mtch-catgrs-subtitle{color:#2a2a2a;font-size:13px;font-weight:bold;padding:4px 0 3px 5px;}
+.mtch-catgrs-subtitle a{color:#2a2a2a;}
+.hideCatgrsList{display:none;}
+.showCatgrsList{display:block;}
+.searchResult-text{font-size:14px;color:#272727;padding:0 0 5px 5px;}
+.banners-end{color:#666;text-align:left;font-size:11px;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-weight:100;float: right;padding-top: 2px;padding-right: 0;padding-bottom: 2px;padding-left: 0;background-color: #E2E7EA;clear: both;height: 25px;margin-right: 10px;text-decoration: none;}
+.banners-end a{color:#666;text-decoration:none;}
+.banners-end a:hover{color:#000; font-weight:bolder;}
+.hdrs1 { color: #666;text-decoration: none;font-family: tahoma,verdana,arial,sans-serif;font-size: 14px;font-weight: bold;margin-bottom:0px;margin-left:0px;margin-top: 3px;background-color: #E2E7EA;height: 30px;width: 735px;margin-right: 0px;border-top-left-radius:0.5em;border-top-right-radius:0.5em;}
+.hdrs1 a {line-height:30px;margin-left:5px;text-decoration: none;font-family: tahoma,verdana,arial,sans-serif;color: #000;}
+#belowSpot.searchResult{padding-top: 3px;}
+.allresults {font-weight: normal;margin-bottom:5px;float:right;}
+.searchboldFont{font-family: tahoma,verdana,arial,sans-serif;font-size: 12px;font-weight: 700;color:#121212;padding-left: 5px;}
+#skuAreaSmMainnew{background-color: #fff;margin: 0;padding: 10px 5px 0;}
+#ippromologo div{display: inline;margin: 0 0.35em;width: 30%;}
+.codhdrs {background-color: #E2E7EA;border-top-left-radius: 0.5em;border-top-right-radius: 0.5em;color: #666666;font-family: tahoma,verdana,arial,sans-serif;font-size: 14px;font-weight: bold;height: 30px;margin: 3px 0 0;text-decoration: none;width: 735px;}
+.codhdrs a {line-height:30px;margin-left:5px;text-decoration: none;font-family: tahoma,verdana,arial,sans-serif;color: #000;}
+.codfilters-bor {border-bottom: 2px solid #142C45;height: 2px;margin: 0;width: 733px;}
+.codproduct_listing {border-color: #A2B1BB;border-radius: 0 0 6px 6px;border-style: solid;border-width: 0 1px 1px;clear: both;margin-bottom: 15px;overflow: hidden;padding: 0 8px;width: 715px;}
+.crosspromotionholder{margin-top: 5px;border: 1px solid #121212;}
+.litShowAllLinks,.litShowAllLinks a {font-family: tahoma,verdana,arial,sans-serif;font-size:13px;color:#003399;text-decoration:none;} 
+.litShowAllLinks:hover,.litShowAllLinks a:hover {font-family: tahoma,verdana,arial,sans-serif;font-size:13px;color:#E54F01;text-decoration:underline;}
+.litShowAllLinksName {font-family: tahoma,verdana,arial,sans-serif;font-size:13px;color:#5D5D5D;text-decoration:none;}
+#divWishFdp,#divWishFdp a {font-family: tahoma,verdana,arial,sans-serif;font-size:13px;color:#003399;text-decoration:none;}  
+#divWishFdp:hover,#divWishFdp a:hover {font-family: tahoma,verdana,arial,sans-serif;font-size:13px;color:#E54F01;text-decoration:underline;}
+
+li.listitemnew {border-bottom: 1px solid #EEEEEE;font-family: Segoe UI,Lucida Grande,UnDotum,Arial,Helvetica,sans-serif; font-size: 12px;line-height: 26px;position: relative;}
+li.listitemnew:last-child{border-bottom: none;}
+li.listitemnew a {font-family: Segoe UI,Lucida Grande,UnDotum,Arial,Helvetica,sans-serif;font-size: 12px;line-height: 26px;position: relative;}
+li.listitemnew a:hover {font-family: Segoe UI,Lucida Grande,UnDotum,Arial,Helvetica,sans-serif;font-size: 12px; line-height: 26px; position: relative;color: #E54F01 !important;}
+.listitemnew span {color: #333333;font-size: 11px;}
+.homeBannerDealsbks-First{margin-top: 10px; }
+.homeBannerDeals-cont-outer li .last{border-bottom: none;}
+.home-bksproduct-img-cont {height: 120px;padding: 1px; width: 166px;}
+.home-bksproddeals-cont-outer{overflow:hidden;padding:8px;_width:709px;}
+.home-deal-price-outer .bksprice {font-size: 14px;font-family: Segoe UI,Arial,Verdana,Helvetica,sans-serif;letter-spacing: 0.010em;line-height: 1.286em;color: #A71818;font-weight: 700;margin-left: 12px;margin-top: 2px;text-align: left;float:left;}
+.home-deal-price-outer .bksprice span{font-weight:normal;font-size:11px;color:#757575;text-decoration:line-through;margin-right:10px;}
+.homeBannerDeals-heading .homeBannerDeals-head-text h2{font-size:15px;font-weight:bold;float:left;padding:6px 0 0 19px;text-shadow:0 1px #fff;color:#292A2A;}
+.homeBannerDeals-heading .homeBannerDeals-head-text h2:hover {color:#292A2A;}
+.home-similar-deals-head h2{font-size:15px;font-weight:bold;float:left;padding:6px 0 0 39px; text-shadow:0 1px #fff;color:#292A2A;}
+.home-deal-author{color:#292A2A;font-size: 11px;}
+.home-deal-author a{font-weight:bold;padding:0 0 3px 5px;color:#292A2A;font-size: 11px;}
+.ratingsec{margin:-3px 0px 0px 0px;}
+.ratingstar{background:url(http://images.indiaplaza.com/ipimages/ipstarrating.png) no-repeat scroll 0 0 transparent;display:inline-block;overflow:hidden;position:relative;vertical-align:middle;margin:0;padding:0;}
+.rstar10{background-position:-62px 0;height:19px;width:76px;}
+.rstar20{background-position:-47px 0;height:19px;width:76px;}
+.rstar30{background-position:-31px 0;height:19px;width:76px;}
+.rstar40{background-position:-15px 0;height:19px;width:76px;}
+.rstar50{background-position:0 0;height:19px;width:76px;}
+.rstar01,.rstar02,.rstar03,.rstar04,.rstar05,.rstar06,.rstar07,.rstar08,.rstar09{background-position:-62px -19px;height:19px;width:76px;}
+.rstar11,.rstar12,.rstar13,.rstar14,.rstar15,.rstar16,.rstar17,.rstar18,.rstar19{background-position:-47px -19px;height:19px;width:76px;}
+.rstar21,.rstar22,.rstar23,.rstar24,.rstar25,.rstar26,.rstar27,.rstar28,.rstar29{background-position:-31px -19px;height:19px;width:76px;}
+.rstar31,.rstar32,.rstar33,.rstar34,.rstar35,.rstar36,.rstar37,.rstar38,.rstar39{background-position:-16px -19px;height:19px;width:76px;}
+.rstar41,.rstar42,.rstar43,.rstar44,.rstar45,.rstar46,.rstar47,.rstar48,.rstar49{background-position:0 -19px;height:19px;width:76px;}
+.ratingstarnew{margin-top:-10px;}
+.prodInfo .recom_buynow {margin-left:35px;text-align:center;}
+.recom_buynow { display: none;background-color: #ffc42b;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;background: -moz-linear-gradient(0% 55% 90deg,#ffc42b, #ffd66e, #ffd66e 100%); background: -webkit-gradient(linear, 0% 0%, 0% 65%, from(#FFE678), to(#E0B324), color-stop(.2,#FAD121)); color: #000000; float: left; font-family: arial,helvetica,sans-serif;font-size: 12px;font-weight: 600; padding: 2px 16px;text-shadow: 1px 1px 0 #ffe093; border: 1px solid #e6a400; box-shadow: 1px 1px 5px #c0c0c0;} 
+li:hover .recom_buynow { background: -moz-linear-gradient(40% 51% 90deg,#D4A922, #EBC41F, #EDD670 100%); background: -moz-linear-gradient(0% 55% 90deg,#ffd66e, #ffc42b, #ffc42b 100%);background: -webkit-gradient(linear, 0% 0%, 0% 65%, from(#EDD670), to(#D4A922), color-stop(.2,#EBC41F)); display: block; cursor:pointer;background-color: #D4A922;}
+li:hover .recom_buynow:hover { background: -moz-linear-gradient(40% 51% 90deg,#D4A922, #EBC41F, #EDD670 100%);background: -moz-linear-gradient(0% 55% 90deg,#ffd66e, #ffc42b, #ffc42b 100%);background: -webkit-gradient(linear, 0% 0%, 0% 65%, from(#EDD670), to(#D4A922), color-stop(.2,#EBC41F)); display: block;background-color: #D4A922;}
